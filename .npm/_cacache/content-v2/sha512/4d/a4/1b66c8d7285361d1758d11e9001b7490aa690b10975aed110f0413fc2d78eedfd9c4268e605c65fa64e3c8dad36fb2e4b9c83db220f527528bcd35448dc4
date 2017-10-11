@@ -1,0 +1,1 @@
+{"versions":{"0.1.1":{"name":"new","version":"0.1.1","bin":{"new.js":"./new.js"},"directories":{},"dist":{"shasum":"e378203be64b404a6a95aa809a35ea98f3907972","tarball":"https://registry.npmjs.org/new/-/new-0.1.1.tgz"},"engines":{"node":"*"},"_hasShrinkwrap":false}},"name":"new","dist-tags":{"latest":"0.1.1"},"modified":"2011-04-10T14:56:40.672Z"}

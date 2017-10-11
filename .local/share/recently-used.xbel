@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/arya/Downloads/code_1.15.1-1502903936_amd64.deb" added="2017-10-10T16:00:05Z" modified="2017-10-10T16:00:05Z" visited="2017-10-10T16:00:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-10-10T16:00:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/my-app/src/main.ts" added="2017-10-10T16:22:31Z" modified="2017-10-10T16:22:31Z" visited="2017-10-10T16:22:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/vnd.trolltech.linguist"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/share/code/code --unity-launch %F&apos;" modified="2017-10-10T16:22:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/my-app/src/index.html" added="2017-10-10T16:24:40Z" modified="2017-10-10T16:24:40Z" visited="2017-10-10T16:24:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/share/code/code --unity-launch %F&apos;" modified="2017-10-10T16:24:40Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/my-app/src/styles.css" added="2017-10-10T16:28:53Z" modified="2017-10-10T16:28:53Z" visited="2017-10-10T16:28:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/share/code/code --unity-launch %F&apos;" modified="2017-10-10T16:28:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/my-app" added="2017-10-10T16:31:56Z" modified="2017-10-10T16:31:56Z" visited="2017-10-10T16:31:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/share/code/code --unity-launch %F&apos;" modified="2017-10-10T16:31:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/my-app/src/app/app.component.css" added="2017-10-10T16:32:36Z" modified="2017-10-10T16:32:36Z" visited="2017-10-10T16:32:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/share/code/code --unity-launch %F&apos;" modified="2017-10-10T16:32:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/my-app/src/app/app.component.html" added="2017-10-10T16:39:50Z" modified="2017-10-10T16:39:50Z" visited="2017-10-10T16:39:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/share/code/code --unity-launch %F&apos;" modified="2017-10-10T16:39:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/my-app/src/app/app.component.spec.ts" added="2017-10-10T17:09:58Z" modified="2017-10-10T17:10:50Z" visited="2017-10-10T17:09:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/vnd.trolltech.linguist"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/share/code/code --unity-launch %F&apos;" modified="2017-10-10T17:10:50Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/my-app/src/app/app.component.ts" added="2017-10-11T03:00:23Z" modified="2017-10-11T03:00:23Z" visited="2017-10-11T03:00:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/vnd.trolltech.linguist"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/share/code/code --unity-launch %F&apos;" modified="2017-10-11T03:00:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/Downloads/Wallpapers/images.jpeg" added="2017-10-11T03:12:07Z" modified="2017-10-11T10:02:10Z" visited="2017-10-11T03:12:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-10-11T03:12:08Z" count="2"/>
+          <bookmark:application name="unity-control-center" exec="&apos;unity-control-center %u&apos;" modified="2017-10-11T10:02:10Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/Downloads/Wallpapers/cycle.jpeg" added="2017-10-11T03:21:13Z" modified="2017-10-11T10:02:10Z" visited="2017-10-11T03:21:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-10-11T03:21:14Z" count="2"/>
+          <bookmark:application name="unity-control-center" exec="&apos;unity-control-center %u&apos;" modified="2017-10-11T10:02:10Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/Documents/new%20app/login%20app" added="2017-10-11T03:35:35Z" modified="2017-10-11T03:36:04Z" visited="2017-10-11T03:35:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2017-10-11T03:36:04Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/Documents/newapp/loginapp" added="2017-10-11T03:38:01Z" modified="2017-10-11T03:38:01Z" visited="2017-10-11T03:38:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2017-10-11T03:38:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/Documents/newapp" added="2017-10-11T03:38:47Z" modified="2017-10-11T03:38:47Z" visited="2017-10-11T03:38:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2017-10-11T03:38:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/Downloads/Wallpapers/wtcy.jpg" added="2017-10-11T09:51:00Z" modified="2017-10-11T10:02:10Z" visited="2017-10-11T09:51:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-10-11T09:51:01Z" count="2"/>
+          <bookmark:application name="unity-control-center" exec="&apos;unity-control-center %u&apos;" modified="2017-10-11T10:02:10Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/Downloads/Wallpapers/bike-2647028__340.jpg" added="2017-10-11T09:52:33Z" modified="2017-10-11T10:02:10Z" visited="2017-10-11T09:52:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-10-11T09:52:34Z" count="2"/>
+          <bookmark:application name="unity-control-center" exec="&apos;unity-control-center %u&apos;" modified="2017-10-11T10:02:10Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/Downloads/Wallpapers/bmx-2157238__340.jpg" added="2017-10-11T09:53:17Z" modified="2017-10-11T10:02:10Z" visited="2017-10-11T09:53:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-10-11T09:53:18Z" count="2"/>
+          <bookmark:application name="unity-control-center" exec="&apos;unity-control-center %u&apos;" modified="2017-10-11T10:02:10Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/Downloads/Wallpapers/bike_wheel_glare_blurring_54378_300x168.jpg" added="2017-10-11T09:56:20Z" modified="2017-10-11T10:02:10Z" visited="2017-10-11T09:56:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-10-11T09:56:20Z" count="2"/>
+          <bookmark:application name="unity-control-center" exec="&apos;unity-control-center %u&apos;" modified="2017-10-11T10:02:10Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/Downloads/Wallpapers/bike_street_night_wall_70258_300x168.jpg" added="2017-10-11T09:58:45Z" modified="2017-10-11T10:02:10Z" visited="2017-10-11T09:58:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-10-11T09:58:45Z" count="2"/>
+          <bookmark:application name="unity-control-center" exec="&apos;unity-control-center %u&apos;" modified="2017-10-11T10:02:10Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arya/Downloads/Wallpapers/motorcycle_bike_palm_tree_115463_1920x1080.jpg" added="2017-10-11T09:59:41Z" modified="2017-10-11T10:02:10Z" visited="2017-10-11T09:59:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-10-11T09:59:42Z" count="2"/>
+          <bookmark:application name="unity-control-center" exec="&apos;unity-control-center %u&apos;" modified="2017-10-11T10:02:10Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

@@ -1,0 +1,1122 @@
+
+
+<!DOCTYPE html>
+<html lang="bm" dir="ltr" class="no-js" data-ffo-opensans="false" data-ffo-zillaslab="false">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <script>(function(d) { d.className = d.className.replace(/\bno-js/, ''); })(document.documentElement);</script>
+  
+    
+  
+
+  
+  <title>JavaScript | MDN</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+    <link rel="home" href="/bm/">
+    <link rel="copyright" href="#copyright">
+  
+
+  
+    
+    
+
+    
+          <link href="https://cdn.mdn.mozilla.net/static/build/styles/mdn-skinny.b2d9061c8deb.css" rel="stylesheet" type="text/css" />
+      
+
+    
+  
+
+    
+        <link href="https://cdn.mdn.mozilla.net/static/build/styles/wiki-skinny.8dcc315e0a59.css" rel="stylesheet" type="text/css" />
+    
+
+
+    
+
+  
+    <!-- common social tags -->
+    
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdn.mdn.mozilla.net/static/img/opengraph-logo.72382e605ce3.png">
+    <meta property="og:site_name" content="Mozilla Developer Network">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://cdn.mdn.mozilla.net/static/img/opengraph-logo.72382e605ce3.png">
+    <meta name="twitter:site" content="@MozDevNet">
+    <meta name="twitter:creator" content="@MozDevNet">
+    <link rel="search" type="application/opensearchdescription+xml" href="https://developer.mozilla.org/bm/search/xml" title="Mozilla Developer Network">
+  
+
+  <!-- third-generation iPad with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://cdn.mdn.mozilla.net/static/img/favicon144.0d89fc050967.png">
+  <!-- iPhone with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://cdn.mdn.mozilla.net/static/img/favicon114.57ce6f6d1857.png">
+  <!-- first- and second-generation iPad: -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://cdn.mdn.mozilla.net/static/img/favicon72.deefe20a0360.png">
+  <!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon-precomposed" href="https://cdn.mdn.mozilla.net/static/img/favicon57.930938a93373.png">
+  <!-- basic favicon -->
+  
+    
+  
+  <link rel="shortcut icon" href="https://cdn.mdn.mozilla.net/static/img/favicon32-local.329e8131018f.png">
+  <!--[if IE]>
+  <meta http-equiv="imagetoolbar" content="no">
+  <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/html5shiv.3948ccddab6f.js" charset="utf-8"></script>
+  <![endif]-->
+
+  <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/font-check.f6a4c7250869.js" charset="utf-8"></script>
+
+  
+  <link rel="alternate" type="application/json" href="/bm/docs/Web/JavaScript$json">
+  <link rel="canonical" href="https://developer.mozilla.org/bm/docs/Web/JavaScript" >
+
+  
+    
+      <link rel="alternate" hreflang="en-US" href="/en-US/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="ar" href="/ar/docs/Web/JavaScript" title="جافا سكريبت">
+    
+      <link rel="alternate" hreflang="bn-BD" href="/bn-BD/docs/Web/JavaScript" title="জাভাস্ক্রিপ্ট">
+    
+      <link rel="alternate" hreflang="bn-IN" href="/bn-IN/docs/Web/%E0%A6%9C%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A7%8D%E0%A6%9F" title="জাভাস্ক্রিপ্ট">
+    
+      <link rel="alternate" hreflang="ca" href="/ca/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="cs" href="/cs/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="de" href="/de/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="el" href="/el/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="es" href="/es/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="fa" href="/fa/docs/Web/JavaScript" title="جاوا اسکریپت">
+    
+      <link rel="alternate" hreflang="fr" href="/fr/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="he" href="/he/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="hi-IN" href="/hi-IN/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="hu" href="/hu/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="id" href="/id/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="it" href="/it/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="ja" href="/ja/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="ka" href="/ka/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="kab" href="/kab/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="ko" href="/ko/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="ms" href="/ms/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="my" href="/my/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="nl" href="/nl/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="pl" href="/pl/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="pt-BR" href="/pt-BR/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="pt-PT" href="/pt-PT/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="ro" href="/ro/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="ru" href="/ru/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="sq" href="/sq/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="sr" href="/sr/docs/Web/JavaScript" title="Јаваскрипт">
+    
+      <link rel="alternate" hreflang="sv-SE" href="/sv-SE/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="ta" href="/ta/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="th" href="/th/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="tr" href="/tr/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="uk" href="/uk/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="vi" href="/vi/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="zh-CN" href="/zh-CN/docs/Web/JavaScript" title="JavaScript">
+    
+      <link rel="alternate" hreflang="zh-TW" href="/zh-TW/docs/Web/JavaScript" title="JavaScript">
+    
+  
+
+  <!-- document-specific social tags -->
+  <meta property="og:title" content="JavaScript">
+  <meta property="og:url" content="https://developer.mozilla.org/bm/docs/Web/JavaScript">
+  <meta name="twitter:url" content="https://developer.mozilla.org/bm/docs/Web/JavaScript">
+  <meta name="twitter:title" content="JavaScript">
+  
+  <meta property="og:description" content="JavaScript ( JS ) is a lightweight, interpreted, programming language with first-class functions . Most well-known as the scripting language for Web pages, many non-browser environments also use it, such as node.js and Apache CouchDB . JS is a prototype-based , multi-paradigm, dynamic scripting language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript .">
+  <meta name="description" content="JavaScript ( JS ) is a lightweight, interpreted, programming language with first-class functions . Most well-known as the scripting language for Web pages, many non-browser environments also use it, such as node.js and Apache CouchDB . JS is a prototype-based , multi-paradigm, dynamic scripting language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript .">
+  <meta name="twitter:description" content="JavaScript ( JS ) is a lightweight, interpreted, programming language with first-class functions . Most well-known as the scripting language for Web pages, many non-browser environments also use it, such as node.js and Apache CouchDB . JS is a prototype-based , multi-paradigm, dynamic scripting language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript .">
+  
+
+
+  
+    
+
+<script type="text/javascript">
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-36116321-5', 'mozilla.org');
+    ga('set', 'anonymizeIp', true);
+
+    
+
+    // dimension9 == "Section editing"
+    
+        // dimension12 == 'Page Revision'
+        ga('set', 'dimension12', '1072686');
+        // dimension17 == 'English Slug'
+        ga('set', 'dimension17', 'Web/JavaScript');
+
+    (function() {
+        // http://cfsimplicity.com/61/removing-analytics-clutter-from-campaign-urls
+        var win = window;
+        var removeUtms = function(){
+            var location = win.location;
+            if (location.href.indexOf('utm') != -1 && win.history.replaceState) {
+                win.history.replaceState({}, '', location.pathname);
+            }
+        };
+
+        ga('send', 'pageview', {'hitCallback': removeUtms});
+    })();
+</script>
+
+  
+</head>
+<body data-slug="Web/JavaScript" contextmenu="edit-history-menu" data-search-url="" class="document   ">
+
+  <script type="text/javascript">
+    // make sure global mdn object exists
+    var mdn = window.mdn || {};
+
+    (function(win) {
+        'use strict';
+
+        
+            (function(){
+  var FLAGS = {
+    'compat_api': false,'kumaediting': false,'line_length': false,'page_move': false,'redesign_beta': false,'redesign_live': false,'registration_disabled': false,'sample_frame': false,'search_suggestions': false,'section_edit': false,'sg_task_completion': false,'spam_admin_override': false,'spam_checks_enabled': true,'spam_spammer_override': false,'spam_submissions_enabled': false,'spam_testing_mode': false,'wiki_samples': true,'wiki_spam_exempted': false,'wiki_spam_training': false
+    },
+    SWITCHES = {
+    'wiki_error_on_delete': false,'wiki_force_immediate_rendering': false,'enable_optimizely': false,'welcome_email': true,'application_ACAO': true,'store_revision_ips': true,'dumb_doc_urls': true,'newsletter': true,'newsletter_article': true,'foundation_callout': false,'helpful-survey-2': true
+    },
+    SAMPLES = {
+    
+    };
+  window.waffle = {
+    "flag_is_active": function waffle_flag(flag_name) {
+      
+      return !!FLAGS[flag_name];
+    },
+    "switch_is_active": function waffle_switch(switch_name) {
+      
+      return !!SWITCHES[switch_name];
+    },
+    "sample_is_active": function waffle_sample(sample_name) {
+      
+      return !!SAMPLES[sample_name];
+    },
+    "FLAGS": FLAGS,
+    "SWITCHES": SWITCHES,
+    "SAMPLES": SAMPLES
+  };
+})();
+
+        
+
+        // This needs to be set before ckeditor.js loads
+        window.CKEDITOR_BASEPATH = '/static/js/libs/ckeditor/build/ckeditor/';
+
+        // Site configuration
+        win.mdn.ckeditor = {};
+        win.mdn.features = {};
+        win.mdn.staticPath = 'https://cdn.mdn.mozilla.net/static/';
+        win.mdn.optimizely = win['optimizely'] || [];
+        win.mdn.wiki = {
+            autosuggestTitleUrl: '/bm/docs/get-documents'
+        };
+        win.mdn.assets = {
+            css: {
+                'editor-content': ['https://cdn.mdn.mozilla.net/static/build/styles/editor-content.4b63a9347c67.css',
+                ]
+            },
+            js: {
+                'syntax-prism': ['https://cdn.mdn.mozilla.net/static/build/js/syntax-prism.66bd4038bff3.js',]
+            }
+        };
+
+        win.mdn.notifications = [];
+
+        
+
+        // interactive editor config
+        win.mdn.interactiveEditor = {
+            siteUrl: "https://developer.mozilla.org",
+            editorUrl: "https://interactive-examples.mdn.mozilla.net"
+        };
+
+    })(this);
+</script>
+    
+  <ul id="nav-access">
+    <li><a href="#document-main" id="skip-main">Skip to main content</a></li>
+    <li><a id="skip-language" href="#language">Select language</a></li>
+    <li><a href="#q" id="skip-search">Skip to search</a></li>
+  </ul>
+
+  <!-- Header -->
+  <header id="main-header"><div class="center">
+    <a href="/bm/" class="logo">MDN Web Docs</a>
+
+    <div id="nav-sec">
+    
+      <ul>
+      <li class="nav-login"><div class="login">
+    
+        
+        <a href="/users/github/login/?next=%2Fbm%2Fdocs%2FWeb%2FJavaScript" class="login-link js-login-link" data-service="GitHub">
+            Sign in
+            <i class="icon-github" aria-hidden="true"></i>
+        </a>
+    
+</div></li>
+      </ul>
+    
+    </div>
+
+    <nav id="main-nav" class="nav-main" role="navigation"><ul><li class="nav-main-item"><a href="/bm/docs/Web">Technologies<i aria-hidden="true" class="icon-caret-down"></i></a>
+      <div class="submenu js-submenu" id="nav-tech-submenu">
+        <div class="submenu-column">
+          <ul>
+            <li><a href="/bm/docs/Web/HTML">HTML</a></li>
+            <li><a href="/bm/docs/Web/CSS">CSS</a></li>
+            <li><a href="/bm/docs/Web/JavaScript">JavaScript</a></li>
+            <li><a href="/bm/docs/Web/Guide/Graphics">Graphics</a></li>
+            <li><a href="/bm/docs/Web/HTTP">HTTP</a></li>
+            <li><a href="/bm/docs/Web/API">APIs / DOM</a></li>
+            <li><a href="/bm/docs/Mozilla/Add-ons/WebExtensions">Browser Extensions</a></li>
+            <li><a href="/bm/docs/Web/MathML">MathML</a></li>
+          </ul>
+        </div></div><li class="nav-main-item"><a href="/bm/docs/Learn">References & Guides<i aria-hidden="true" class="icon-caret-down"></i></a>
+        <div class="submenu js-submenu" id="nav-learn-submenu">
+        <div class="submenu-column">
+          <ul>
+            <li><a href="/bm/docs/Learn">Learn web development</a></li>
+            <li><a href="/bm/docs/Web/Tutorials">Tutorials</a></li>
+            <li><a href="/bm/docs/Web/Reference">References</a></li>
+            <li><a href="/bm/docs/Web/Guide">Developer Guides</a></li>
+            <li><a href="/bm/docs/Web/Accessibility">Accessibility</a></li>
+            <li><a href="/bm/docs/Games">Game development</a></li>
+            <li><a href="/bm/docs/Web">...more docs</a></li>
+          </ul>
+        </div>
+      </div>
+      </li><li class="nav-main-item"><a href="/bm/docs/MDN/Feedback">Feedback<i aria-hidden="true" class="icon-caret-down"></i></a>
+        <div class="submenu js-submenu" id="nav-contact-submenu">
+          <div class="submenu-column">
+            <ul>
+              <li><a href="https://support.mozilla.org/">Get Firefox help<i aria-hidden="true" class="icon-external-link"></i></a></li>
+              <li><a href="https://stackoverflow.com/">Get web development help<i aria-hidden="true" class="icon-external-link"></i></a></li>
+            </ul>
+            <ul>
+              <li><a href="/bm/docs/MDN/Community">Join the MDN community</a></li>
+              <li><a target="_blank" href="https://bugzilla.mozilla.org/form.doc?bug_file_loc=https%3A//developer.mozilla.org/bm/docs/Web/JavaScript">Report a content problem<i aria-hidden="true" class="icon-external-link"></i></a></li>
+              <li><a target="_blank" href="https://bugzilla.mozilla.org/form.mdn">Report a bug<i aria-hidden="true" class="icon-external-link"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </li><li class="nav-main-search"><form action="/bm/search" method="get" role="search">
+        <div class="search-wrap">
+          <label for="main-q" class="offscreen">Search</label>
+          <input type="search" id="main-q" name="q" placeholder="Search" data-value="" value="" />
+          <span class="search-trigger"><i aria-hidden="true" class="icon-search"></i></span>
+          <button type="submit" class="offscreen">Search</button>
+        </div>
+      </form></li></ul></nav>
+  </div></header> 
+
+  <!-- Content will go here -->
+  <main id="content">
+      
+  <!-- heading -->
+  <div id="wiki-document-head" class="document-head">
+    <div class="center">
+      
+        <!-- crumbs -->
+        
+  <nav class="crumbs" role="navigation"><ol xmlns:v="http://rdf.data-vocabulary.org/#" aria-label="breadcrumbs">
+    <li typeof="v:Breadcrumb"><a href="/bm" rel="v:url" property="v:title">MDN</a></li>
+    
+      <li class="crumb" typeof="v:Breadcrumb"><a href="/bm/docs/Web" rel="v:url" property="v:title">Web technology for developers</a></li>
+    
+    <li class="crumb" typeof="v:Breadcrumb" property="v:title">JavaScript</li>
+  </ol></nav>
+      
+
+      <!-- action buttons -->
+      <div class="document-actions">
+        
+
+  
+    
+    
+  
+
+  
+    
+  
+
+  
+
+  <ul class="page-buttons">
+      <li><button id="languages-menu" class="transparent" aria-haspopup="true" aria-owns="languages-menu-submenu" aria-expanded="false"><span>Languages</span><i aria-hidden="true" class="icon-language"></i></button>
+
+        <div class="submenu js-submenu" id="languages-menu-submenu">
+          <div class="submenu-column">
+            <ul id="translations">
+              
+                
+                
+                
+                  <li><bdi><a rel="internal" href="/en-US/docs/Web/JavaScript" title="English (US)">English (US) (en-US)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/ar/docs/Web/JavaScript" title="Arabic">عربي (ar)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/bn-BD/docs/Web/JavaScript" title="Bengali (Bangladesh)">বাংলা (বাংলাদেশ) (bn-BD)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/bn-IN/docs/Web/%E0%A6%9C%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A7%8D%E0%A6%9F" title="Bengali (India)">বাংলা (ভারত) (bn-IN)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/ca/docs/Web/JavaScript" title="Catalan">Català (ca)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/cs/docs/Web/JavaScript" title="Czech">Čeština (cs)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/de/docs/Web/JavaScript" title="German">Deutsch (de)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/el/docs/Web/JavaScript" title="Greek">Ελληνικά (el)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/es/docs/Web/JavaScript" title="Spanish">Español (es)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/fa/docs/Web/JavaScript" title="Persian">فارسی (fa)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/fr/docs/Web/JavaScript" title="French">Français (fr)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/he/docs/Web/JavaScript" title="Hebrew">עברית (he)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/hi-IN/docs/Web/JavaScript" title="Hindi (India)">हिन्दी (भारत) (hi-IN)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/hu/docs/Web/JavaScript" title="Hungarian">magyar (hu)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/id/docs/Web/JavaScript" title="Indonesian">Bahasa Indonesia (id)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/it/docs/Web/JavaScript" title="Italian">Italiano (it)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/ja/docs/Web/JavaScript" title="Japanese">日本語 (ja)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/ka/docs/Web/JavaScript" title="Georgian">ქართული (ka)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/kab/docs/Web/JavaScript" title="Kabyle">Taqbaylit (kab)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/ko/docs/Web/JavaScript" title="Korean">한국어 (ko)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/ms/docs/Web/JavaScript" title="Malay">Melayu (ms)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/my/docs/Web/JavaScript" title="Burmese">မြန်မာဘာသာ (my)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/nl/docs/Web/JavaScript" title="Dutch">Nederlands (nl)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/pl/docs/Web/JavaScript" title="Polish">Polski (pl)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/pt-BR/docs/Web/JavaScript" title="Portuguese (Brazilian)">Português (do Brasil) (pt-BR)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/pt-PT/docs/Web/JavaScript" title="Portuguese (Portugal)">Português (Europeu) (pt-PT)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/ro/docs/Web/JavaScript" title="Romanian">Română (ro)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/ru/docs/Web/JavaScript" title="Russian">Русский (ru)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/sq/docs/Web/JavaScript" title="Albanian">Shqip (sq)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/sr/docs/Web/JavaScript" title="Serbian">Српски (sr)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/sv-SE/docs/Web/JavaScript" title="Swedish">Svenska (sv-SE)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/ta/docs/Web/JavaScript" title="Tamil">தமிழ் (ta)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/th/docs/Web/JavaScript" title="Thai">ไทย (th)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/tr/docs/Web/JavaScript" title="Turkish">Türkçe (tr)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/uk/docs/Web/JavaScript" title="Ukrainian">Українська (uk)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/vi/docs/Web/JavaScript" title="Vietnamese">Tiếng Việt (vi)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/zh-CN/docs/Web/JavaScript" title="Chinese (Simplified)">中文 (简体) (zh-CN)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="/zh-TW/docs/Web/JavaScript" title="Chinese (Traditional)">正體中文 (繁體) (zh-TW)</a></bdi></li>
+                
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </li>
+      
+      <li class="page-buttons-edit"><a href="/bm/docs/Web/JavaScript$edit" class="button neutral" data-optimizely-hook="button-edit-doc" id="edit-button" rel="nofollow, noindex">Edit<i aria-hidden="true" class="icon-pencil"></i></a></li>
+      
+
+        
+
+        <li class="page-buttons-advanced"><button id="advanced-menu" class="only-icon" aria-haspopup="true" aria-owns="advanced-menu-submenu" aria-expanded="false"><span>Advanced</span><i aria-hidden="true" class="icon-cog"></i></button>
+        <div class="submenu js-submenu" id="advanced-menu-submenu">
+          <!-- this page -->
+          <div class="submenu-column">
+            <div class="title">Advanced</div>
+            <ul>
+                <li><a href="/bm/docs/Web/JavaScript$history" rel="nofollow, noindex">History</a></li>
+                
+                
+                
+
+
+                
+
+                
+                
+                
+                <li class="page-print"><a href="#" onclick="return window.print();">Print this article</a></li>
+            </ul>
+          </div>
+        </div>
+  </li></ul>
+      </div>
+
+      <div class="document-title">
+        
+
+        <h1>JavaScript</h1>
+      </div>
+    </div>
+  </div>
+
+      <div class="center clear">
+      
+
+    <div class="wiki-main-content" id="document-main"><div class="center">
+      <!-- start the main content container -->
+        <div id="wiki-column-container" class="wiki-right-closed wiki-right-none wiki-left-present">
+
+          <!-- content row with three strips -->
+          <div class="column-container column-container-reverse">
+
+            
+
+
+            <!-- center: main article content -->
+            <div id="wiki-content" class="column-main wiki-column text-content">
+
+              
+
+              
+              
+
+              
+
+              
+                
+              
+              
+
+              <!-- just the article content -->
+              <article id="wikiArticle">
+                
+                  
+                    
+                    <div><section class="Quick_links" id="Quick_Links"><!-- --></section></div>
+
+<p class="summary"><strong>JavaScript</strong> (<strong>JS</strong>) is a lightweight, interpreted, programming language with <a href="https://en.wikipedia.org/wiki/First-class_functions" class="external">first-class functions</a>. Most well-known as the scripting language for Web pages, <a href="https://en.wikipedia.org/wiki/JavaScript#Uses_outside_Web_pages" class="external">many non-browser environments</a> also use it, such as <a href="https://nodejs.org/" class="external">node.js</a> and <a href="https://couchdb.apache.org/" class="external">Apache CouchDB</a>. JS is a <a href="https://en.wikipedia.org/wiki/Prototype-based_programming" class="external mw-redirect" title="Prototype-based programming">prototype-based</a>, multi-paradigm, dynamic scripting language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more <a href="/en-US/docs/Web/JavaScript/About_JavaScript">about JavaScript</a>.</p>
+
+<p>This section of the site is dedicated to the JavaScript language itself, and not the parts that are specific to Web pages or other host environments. For information about <a href="/en-US/docs/Glossary/API" class="glossaryLink" title="APIs: An API (Application Programming Interface) is a set of features and rules that exist inside a software program enabling interaction between the software and other items, such as other software or hardware.">APIs</a> specific to Web pages, please see <a href="/en-US/docs/Web/API">Web APIs</a> and <a href="/en-US/docs/Glossary/DOM">DOM</a>.</p>
+
+<p>The standard for JavaScript is <a href="/en-US/docs/Web/JavaScript/Language_Resources">ECMAScript</a>. As of 2012, all <a href="http://kangax.github.io/compat-table/es5/" class="external">modern browsers</a> fully support ECMAScript 5.1. Older browsers support at least ECMAScript 3. On June 17, 2015, <a href="http://www.ecma-international.org" class="external">ECMA International</a> published the sixth major version of ECMAScript, which is officially called ECMAScript 2015, and is more commonly referred to as ECMAScript 6 or ES6. Since then ECMAScript standards are on yearly release cycles. This documentation refers to the latest draft version, which is currently <a href="http://tc39.github.io/ecma262/" class="external">ECMAScript 2017</a>.</p>
+
+<p>Do not confuse JavaScript with the <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" class="external">Java programming language</a>. Both "Java" and "JavaScript" are trademarks or registered trademarks of Oracle in the U.S. and other countries. However, the two programming languages have very different syntax, semantics, and uses.</p>
+
+<div class="column-container">
+<div class="column-half">
+<h2 id="Tutorials">Tutorials</h2>
+
+<p>Learn how to program in JavaScript with guides and tutorials.</p>
+
+<h3 id="Introductory">Introductory</h3>
+
+<dl>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">JavaScript Guide</a></dt>
+ <dd>If you are new to JavaScript, this guide will walk you through the language.</dd>
+ <dt><a href="/en-US/docs/Web/JavaScript/JavaScript_technologies_overview">JavaScript technologies overview</a></dt>
+ <dd>Introduction to the web browser JavaScript landscape.</dd>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript">Introduction to Object Oriented JavaScript</a></dt>
+ <dd>Introduction to the concepts of object oriented programming in JavaScript.</dd>
+</dl>
+
+<h3 id="Intermediate">Intermediate</h3>
+
+<dl>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">A re-introduction to JavaScript</a></dt>
+ <dd>An overview for those who <em>think</em> they know about JavaScript.</dd>
+</dl>
+
+<dl>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">JavaScript data structures</a></dt>
+ <dd>Overview of available data structures in JavaScript.</dd>
+ <dt><a href="/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness">Equality comparisons and sameness</a></dt>
+ <dd>JavaScript provides three different value-comparison operations: strict equality using <code>===</code>, loose equality using <code>==</code>, and the <a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Object/is" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>Object.is()</code></a> method.</dd>
+</dl>
+
+<h3 id="Advanced">Advanced</h3>
+
+<dl>
+ <dt><a href="/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain">Inheritance and the prototype chain</a></dt>
+ <dd>Explanation of the widely misunderstood and under-estimated prototype-based inheritance.</dd>
+ <dt><a href="/en-US/docs/Web/JavaScript/Reference/Strict_mode">Strict mode</a></dt>
+ <dd>Strict mode defines that you can not use any variable before initializing it. It is a restricted variant of ECMAScript 5, for faster performance and easier debugging.</dd>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays">JavaScript typed arrays</a></dt>
+ <dd>JavaScript typed arrays provide a mechanism for accessing raw binary data.</dd>
+ <dt><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management">Memory Management</a></dt>
+ <dd>Memory life cycle and garbage collection in JavaScript.</dd>
+ <dt><a href="/en-US/docs/Web/JavaScript/EventLoop">Concurrency model and Event Loop</a></dt>
+ <dd>JavaScript has a concurrency model based on an "event loop".</dd>
+</dl>
+</div>
+
+<div class="column-half">
+<h2 id="Reference">Reference</h2>
+
+<p>Browse the complete <a href="/en-US/docs/Web/JavaScript/Reference">JavaScript reference</a> documentation.</p>
+
+<dl>
+ <dt><a href="/en-US/docs/Web/JavaScript/Reference/Global_Objects">Standard objects</a></dt>
+ <dd>Get to know standard built-in objects <a href="/bm/docs/Web/JavaScript/Reference/Array" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>Array</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Boolean" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>Boolean</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Date" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>Date</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Error" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>Error</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Function" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>Function</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/JSON" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>JSON</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Math" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>Math</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Number" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>Number</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Object" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>Object</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/RegExp" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>RegExp</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/String" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>String</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Map" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>Map</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Set" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>Set</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/WeakMap" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>WeakMap</code></a> , <a href="/bm/docs/Web/JavaScript/Reference/WeakSet" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>WeakSet</code></a>, and others.</dd>
+ <dt><a href="/en-US/docs/Web/JavaScript/Reference/Operators">Expressions and operators</a></dt>
+ <dd>Learn more about the behavior of JavaScript's operators <a href="/bm/docs/Web/JavaScript/Reference/Operators/instanceof" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>instanceof</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Operators/typeof" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>typeof</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Operators/new" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>new</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Operators/this" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>this</code></a>, the <a href="/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence">operator precedence</a>, and more.</dd>
+ <dt><a href="/en-US/docs/Web/JavaScript/Reference/Statements">Statements and declarations</a></dt>
+ <dd>Learn how <a href="/bm/docs/Web/JavaScript/Reference/Statements/do...while" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>do-while</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Statements/for...in" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>for-in</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Statements/for...of" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>for-of</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Statements/try...catch" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>try-catch</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Statements/let" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>let</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Statements/var" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>var</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Statements/const" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>const</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Statements/if...else" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>if-else</code></a>, <a href="/bm/docs/Web/JavaScript/Reference/Statements/switch" class="new" title="The documentation about this has not yet been written; please consider contributing!"><code>switch</code></a>, and more JavaScript statements and keywords work.</dd>
+ <dt><a href="/en-US/docs/Web/JavaScript/Reference/Functions">Functions</a></dt>
+ <dd>Learn how to work with JavaScript's functions to develop your applications.</dd>
+</dl>
+
+<h2 id="Tools_resources">Tools &amp; resources</h2>
+
+<p>Helpful tools for writing and debugging your <strong>JavaScript </strong>code.</p>
+
+<dl>
+ <dt><a href="/en-US/docs/Tools">Firefox Developer Tools</a></dt>
+ <dd><a href="/en-US/docs/Tools/Scratchpad">Scratchpad</a>, <a href="/en-US/docs/Tools/Web_Console">Web Console</a>, <a href="/en-US/docs/Tools/Profiler">JavaScript Profiler</a>, <a href="/en-US/docs/Tools/Debugger">Debugger</a>, and more.</dd>
+ <dt><a href="http://www.getfirebug.com/" class="external">Firebug</a></dt>
+ <dd>Edit, debug, and monitor CSS, HTML, and JavaScript live in any web page.</dd>
+ <dt><a href="/en-US/docs/Web/JavaScript/Shells">JavaScript Shells</a></dt>
+ <dd>A JavaScript shell allows you to quickly test snippets of JavaScript code.</dd>
+ <dt><a href="https://togetherjs.com/" class="external">TogetherJS</a></dt>
+ <dd>Collaboration made easy.</dd>
+ <dt><a href="http://stackoverflow.com/questions/tagged/javascript" class="external">Stack Overflow</a></dt>
+ <dd>Stack Overflow questions tagged with "JavaScript".</dd>
+ <dt><a href="/en-US/docs/Web/JavaScript/New_in_JavaScript">JavaScript versions and release notes</a></dt>
+ <dd>Browse JavaScript's feature history and implementation status.</dd>
+ <dt><a href="https://jsfiddle.net/" class="external">JSFiddle</a></dt>
+ <dd>Edit JavaScript, CSS, HTML and get live results. Use external resources and collaborate with your team online.</dd>
+</dl>
+</div>
+</div>
+
+<p></p><div class="overheadIndicator communitybox" dir="ltr">
+
+    <div class="column-container">
+        <h2 id="Join_the_JavaScript_community">Join the JavaScript community</h2>
+        <div class="column-half">
+            <div class="communitysubhead">Choose your preferred method for joining the discussion:</div>
+            <ul class="communitymailinglist">
+  <li><a href="https://lists.mozilla.org/listinfo/js-engine.internals" class="external">Mailing list</a></li>
+  
+  
+  <li><a href="http://groups.google.com/group/mozilla.dev.tech.js-engine.internals" class="external">Newsgroup</a></li>
+  <li><a href="http://groups.google.com/group/mozilla.dev.tech.js-engine.internals/feeds" class="external">RSS feed</a></li>
+</ul>
+        </div>
+        <div class="column-half">
+            <ul class="communitycontact"><li><strong>IRC: </strong><a href="irc://irc.mozilla.org/js">#js</a> <span class="smaller">(<a href="https://wiki.mozilla.org/IRC" class="external">learn more</a>)</span></li><li><strong>ES discuss: </strong><a href="https://esdiscuss.org/" class="external" title="ECMAScript standard discussion mailing list">esdiscuss.org</a></li><li><strong>SpiderMonkey: </strong><a href="https://wiki.mozilla.org/JavaScript" class="external" title="Contribute to the JavaScript Engine">Project page</a></li><li><strong>Twitter: </strong><a href="https://twitter.com/SpiderMonkeyJS" class="external" title="SpiderMonkey updates on Twitter">@SpiderMonkeyJS</a></li></ul>
+        </div>
+    </div>
+</div><p></p>
+                  
+                
+
+              
+                <aside class="helpful-survey hidden" id="helpful-survey">
+                  <p>Was this article helpful?</p>
+
+                  <div class="helpful-survey-content">
+                    <div class="helpful-survey-buttons">
+                      <button type="button" class="helpful-survey-vote helpful-survey-yes">
+                        <span class="offscreen">Yes</span>
+                        <i class="icon-thumbs-o-up" aria-hidden="true"></i>
+                      </button>
+                      <button type="button" class="helpful-survey-vote helpful-survey-no">
+                        <span class="offscreen">No</span>
+                        <i class="icon-thumbs-o-down" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                    <div class="helpful-survey-thankyou">Thank you!</div>
+                  </div>
+                </aside>
+              
+              </article>
+
+              <!-- contributors -->
+              <div class="wiki-block contributors">
+                <h2 class="offscreen">Document Tags and Contributors</h2>
+                
+                
+
+                
+                  <div class="contributors-sub">
+                    <i aria-hidden="true" class="icon-group icon-fw"></i>&nbsp;<strong>Contributors to this page:</strong> 
+        <a href="/bm/profiles/bekti">bekti</a>
+    
+                  </div>
+                
+
+                
+                  <div class="contributors-sub">
+                    <i aria-hidden="true" class="icon-clock-o icon-fw"></i>&nbsp;<strong>Last updated by:</strong>
+                    <a href="/bm/profiles/bekti">bekti</a>,
+                    <time datetime="2016-06-18T15:59:34-07:00">18 zuw, 2016 15:59:34</time>
+                  </div>
+                
+              </div>
+            </div>
+
+            
+              <!-- quick links and zone subnav strip -->
+              <div id="wiki-left" class="column-strip wiki-column">
+
+                
+
+                
+                  <!-- quick links -->
+                  
+  <div class="quick-links" id="quick-links">
+    <div class="title see-also">See also</div>
+    
+ <ol>
+  <li><a href="/bm/docs/Web/JavaScript"><strong><em>JavaScript</em></strong></a></li>
+  <li><a href="/bm/docs/Web/JavaScript/Tutorials"><strong>Tutorials:</strong></a></li>
+  <li data-default-state="closed"><a href="#">Complete beginners</a>
+   <ol>
+    <li><a href="/bm/docs/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript basics</a></li>
+    <li><a href="/bm/docs/Learn/JavaScript/First_steps">JavaScript first steps</a></li>
+    <li><a href="/bm/docs/Learn/JavaScript/Building_blocks">JavaScript building blocks</a></li>
+    <li><a href="/bm/docs/Learn/JavaScript/Objects">Introducing JavaScript objects</a></li>
+   </ol>
+  </li>
+  <li data-default-state="closed"><a href="/bm/docs/Web/JavaScript/Guide">JavaScript Guide</a>
+    <ol>
+      <li><a href="/bm/docs/Web/JavaScript/Guide/Introduction">Introduction</a></li>
+      <li><a href="/bm/docs/Web/JavaScript/Guide/Grammar_and_Types">Grammar and types</a></li>
+      <li><a href="/bm/docs/Web/JavaScript/Guide/Control_flow_and_error_handling">Control flow and error handling</a></li>
+      <li><a href="/bm/docs/Web/JavaScript/Guide/Loops_and_iteration">Loops and iteration</a></li>
+      <li><a href="/bm/docs/Web/JavaScript/Guide/Functions">Functions</a></li>
+      <li><a href="/bm/docs/Web/JavaScript/Guide/Expressions_and_Operators">Expressions and operators</a></li>
+      <li><a href="/bm/docs/Web/JavaScript/Guide/Numbers_and_dates">Numbers and dates</a></li>
+      <li><a href="/bm/docs/Web/JavaScript/Guide/Text_formatting">Text formatting</a></li>
+      <li><a href="/bm/docs/Web/JavaScript/Guide/Regular_Expressions">Regular expressions</a></li>
+      <li><a href="/bm/docs/Web/JavaScript/Guide/Indexed_collections">Indexed collections</a></li>
+      <li><a href="/bm/docs/Web/JavaScript/Guide/Keyed_collections">Keyed collections</a></li>
+      <li><a href="/bm/docs/Web/JavaScript/Guide/Working_with_Objects">Working with objects</a></li>
+      <li><a href="/bm/docs/Web/JavaScript/Guide/Details_of_the_Object_Model">Details of the object model</a></li>
+      <li><a href="/bm/docs/Web/JavaScript/Guide/Iterators_and_generators">Iterators and generators</a></li>
+      <li><a href="/bm/docs/Web/JavaScript/Guide/Meta_programming">Meta programming</a></li>
+   </ol>
+  </li>
+  <li data-default-state="closed"><a href="#">Intermediate</a>
+   <ol>
+    <li><a href="/bm/docs/Web/JavaScript/A_re-introduction_to_JavaScript">A re-introduction to JavaScript</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/Data_structures">JavaScript data structures</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/Equality_comparisons_and_sameness">Equality comparisons and sameness</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/Closures">Closures</a></li>
+   </ol>
+  </li>
+  <li data-default-state="closed"><a href="#">Advanced</a>
+   <ol>
+    <li><a href="/bm/docs/Web/JavaScript/Inheritance_and_the_prototype_chain">Inheritance and the prototype chain</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/Reference/Strict_mode">Strict mode</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/Typed_arrays">JavaScript typed arrays</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/SIMD_types">SIMD types</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/Memory_Management">Memory Management</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/EventLoop">Concurrency model and Event Loop</a></li>
+   </ol>
+  </li>
+  <li><strong><a href="/bm/docs/Web/JavaScript/Reference">References:</a></strong></li>
+  <li data-default-state="closed"><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects">Built-in objects</a>
+   <ol><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Array" title="The JavaScript Array object is a global object that is used in the construction of arrays; which are high-level, list-like objects.">Array</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Array$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer" title="The ArrayBuffer object is used to represent a generic, fixed-length raw binary data buffer. You cannot directly manipulate the contents of an ArrayBuffer; instead, you create one of the typed array objects or a DataView object which represents the buffer in a specific format, and use that to read and write the contents of the buffer.">ArrayBuffer</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/AsyncFunction" title="The AsyncFunction constructor creates a new async function object. In JavaScript every asynchronous function is actually an AsyncFunction object.">AsyncFunction</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/AsyncFunction$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Atomics" title="The Atomics object provides atomic operations as static methods. They are used with SharedArrayBuffer objects.">Atomics</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Atomics$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Boolean" title="The Boolean object is an object wrapper for a boolean value.">Boolean</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Boolean$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/DataView" title="The DataView view provides a low-level interface for reading and writing multiple number types in an ArrayBuffer irrespective of the platform's endianness.">DataView</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/DataView$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Date" title="Creates a JavaScript Date instance that represents a single moment in time. Date objects are based on a time value that is the number of milliseconds since 1 January, 1970 UTC.">Date</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Date$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Error" title="The Error constructor creates an error object. Instances of Error objects are thrown when runtime errors occur. The Error object can also be used as a base object for user-defined exceptions. See below for standard built-in error types.">Error</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Error$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/EvalError" title="The EvalError object indicates an error regarding the global eval() function. This exception is not thrown by JavaScript anymore, however the EvalError object remains for compatibility.">EvalError</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/EvalError$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Float32Array" title="The Float32Array typed array represents an array of 32-bit floating point numbers (corresponding to the C float data type) in the platform byte order. If control over byte order is needed, use DataView instead. The contents are initialized to 0. Once established, you can reference elements in the array using the object's methods, or using standard array index syntax (that is, using bracket notation).">Float32Array</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Float32Array$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Float64Array" title="The Float64Array typed array represents an array of 64-bit floating point numbers (corresponding to the C double data type) in the platform byte order. If control over byte order is needed, use DataView instead. The contents are initialized to 0. Once established, you can reference elements in the array using the object's methods, or using standard array index syntax (that is, using bracket notation).">Float64Array</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Float64Array$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Function" title="The Function constructor creates a new Function object. Calling the constructor directly can create functions dynamically, but suffers from security and performance issues similar to eval.">Function</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Function$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Generator" title="The Generator object is returned by a generator function and it conforms to both the iterable protocol and the iterator protocol.">Generator</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Generator$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction" title="The GeneratorFunction constructor creates a new generator function object. In JavaScript every generator function is actually a GeneratorFunction object.">GeneratorFunction</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Infinity" title="The global Infinity property is a numeric value representing infinity.">Infinity</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Infinity$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Int16Array" title="The Int16Array typed array represents an array of twos-complement 16-bit signed integers in the platform byte order. If control over byte order is needed, use DataView instead. The contents are initialized to 0. Once established, you can reference elements in the array using the object's methods, or using standard array index syntax (that is, using bracket notation).">Int16Array</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Int16Array$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Int32Array" title="The Int32Array typed array represents an array of twos-complement 32-bit signed integers in the platform byte order. If control over byte order is needed, use DataView instead. The contents are initialized to 0. Once established, you can reference elements in the array using the object's methods, or using standard array index syntax (that is, using bracket notation).">Int32Array</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Int32Array$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Int8Array" title="The Int8Array typed array represents an array of twos-complement 8-bit signed integers. The contents are initialized to 0. Once established, you can reference elements in the array using the object's methods, or using standard array index syntax (that is, using bracket notation).">Int8Array</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Int8Array$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/InternalError" title='The InternalError object indicates an error that occurred internally in the JavaScript engine. For example: "InternalError: too much recursion".'>InternalError</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/InternalError$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Intl" title="The Intl object is the namespace for the ECMAScript Internationalization API, which provides language sensitive string comparison, number formatting, and date and time formatting. The constructors for Collator, NumberFormat, and DateTimeFormat objects are properties of the Intl object. This page documents these properties as well as functionality common to the internationalization constructors and other language sensitive functions.">Intl</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Intl$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Collator" title="The Intl.Collator object is a constructor for collators, objects that enable language sensitive string comparison.">Intl.Collator</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Collator$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat" title="The Intl.DateTimeFormat object is a constructor for objects that enable language sensitive date and time formatting.">Intl.DateTimeFormat</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat" title="The Intl.NumberFormat object is a constructor for objects that enable language sensitive number formatting.">Intl.NumberFormat</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/JSON" title="The JSON object contains methods for parsing JavaScript Object Notation (JSON) and converting values to JSON. It can't be called or constructed, and aside from its two method properties it has no interesting functionality of its own.">JSON</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/JSON$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Map" title="The Map object holds key-value pairs.">Map</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Map$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Math" title="Math is a built-in object that has properties and methods for mathematical constants and functions. Not a function object.">Math</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Math$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/NaN" title="The global NaN property is a value representing Not-A-Number.">NaN</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/NaN$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Number" title="The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor.">Number</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Number$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Object" title="The Object constructor creates an object wrapper.">Object</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Object$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Promise" title="The Promise object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.">Promise</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Promise$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Proxy" title="The Proxy object is used to define custom behavior for fundamental operations (e.g. property lookup, assignment, enumeration, function invocation, etc).">Proxy</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Proxy$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/RangeError" title="The RangeError object indicates an error when a value is not in the set or range of allowed values.">RangeError</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/RangeError$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError" title="The ReferenceError object represents an error when a non-existent variable is referenced.">ReferenceError</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Reflect" title="Reflect is a built-in object that provides methods for interceptable JavaScript operations. The methods are the same as those of proxy handlers. Reflect is not a function object, so it's not constructible.">Reflect</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Reflect$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/RegExp" title="The RegExp constructor creates a regular expression object for matching text with a pattern.">RegExp</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/RegExp$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/SIMD" title="SIMD.js has been taken out of active development in TC39 and removed from Stage 3. It is not being pursued by web browsers for implementation anymore. SIMD operations exposed to the web are under active development within WebAssembly, with operations based on the SIMD.js operations.">SIMD</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/SIMD$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Bool16x8" title="SIMD.js has been taken out of active development in TC39 and removed from Stage 3. It is not being pursued by web browsers for implementation anymore. SIMD operations exposed to the web are under active development within WebAssembly, with operations based on the SIMD.js operations.">SIMD.Bool16x8</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Bool16x8$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Bool32x4" title="SIMD.js has been taken out of active development in TC39 and removed from Stage 3. It is not being pursued by web browsers for implementation anymore. SIMD operations exposed to the web are under active development within WebAssembly, with operations based on the SIMD.js operations.">SIMD.Bool32x4</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Bool32x4$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Bool64x2" title="SIMD.js has been taken out of active development in TC39 and removed from Stage 3. It is not being pursued by web browsers for implementation anymore. SIMD operations exposed to the web are under active development within WebAssembly, with operations based on the SIMD.js operations.">SIMD.Bool64x2</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Bool64x2$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Bool8x16" title="SIMD.js has been taken out of active development in TC39 and removed from Stage 3. It is not being pursued by web browsers for implementation anymore. SIMD operations exposed to the web are under active development within WebAssembly, with operations based on the SIMD.js operations.">SIMD.Bool8x16</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Bool8x16$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Float32x4" title="SIMD.js has been taken out of active development in TC39 and removed from Stage 3. It is not being pursued by web browsers for implementation anymore. SIMD operations exposed to the web are under active development within WebAssembly, with operations based on the SIMD.js operations.">SIMD.Float32x4</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Float32x4$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Float64x2" title="SIMD.js has been taken out of active development in TC39 and removed from Stage 3. It is not being pursued by web browsers for implementation anymore. SIMD operations exposed to the web are under active development within WebAssembly, with operations based on the SIMD.js operations.">SIMD.Float64x2</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Float64x2$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Int16x8" title="SIMD.js has been taken out of active development in TC39 and removed from Stage 3. It is not being pursued by web browsers for implementation anymore. SIMD operations exposed to the web are under active development within WebAssembly, with operations based on the SIMD.js operations.">SIMD.Int16x8</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Int16x8$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Int32x4" title="SIMD.js has been taken out of active development in TC39 and removed from Stage 3. It is not being pursued by web browsers for implementation anymore. SIMD operations exposed to the web are under active development within WebAssembly, with operations based on the SIMD.js operations.">SIMD.Int32x4</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Int32x4$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Int8x16" title="SIMD.js has been taken out of active development in TC39 and removed from Stage 3. It is not being pursued by web browsers for implementation anymore. SIMD operations exposed to the web are under active development within WebAssembly, with operations based on the SIMD.js operations.">SIMD.Int8x16</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Int8x16$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Uint16x8" title="SIMD.js has been taken out of active development in TC39 and removed from Stage 3. It is not being pursued by web browsers for implementation anymore. SIMD operations exposed to the web are under active development within WebAssembly, with operations based on the SIMD.js operations.">SIMD.Uint16x8</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Uint16x8$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Uint32x4" title="SIMD.js has been taken out of active development in TC39 and removed from Stage 3. It is not being pursued by web browsers for implementation anymore. SIMD operations exposed to the web are under active development within WebAssembly, with operations based on the SIMD.js operations.">SIMD.Uint32x4</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Uint32x4$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Uint8x16" title="SIMD.js has been taken out of active development in TC39 and removed from Stage 3. It is not being pursued by web browsers for implementation anymore. SIMD operations exposed to the web are under active development within WebAssembly, with operations based on the SIMD.js operations.">SIMD.Uint8x16</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Uint8x16$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Set" title="The Set object lets you store unique values of any type, whether primitive values or object references.">Set</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Set$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer" title="The SharedArrayBuffer object is used to represent a generic, fixed-length raw binary data buffer, similar to the ArrayBuffer object, but in a way that they can be used to create views on shared memory. Unlike an ArrayBuffer, a SharedArrayBuffer cannot become detached.">SharedArrayBuffer</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/String" title="The String global object is a constructor for strings, or a sequence of characters.">String</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/String$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Symbol" title='The Symbol() function returns a value of type symbol, has static properties that expose several members of built-in objects, has static methods that expose the global symbol registry, and resembles a built-in object class but is incomplete as a constructor because it does not support the syntax "new Symbol()".'>Symbol</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Symbol$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError" title="The SyntaxError object represents an error when trying to interpret syntactically invalid code.">SyntaxError</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/TypeError" title="The TypeError object represents an error when a value is not of the expected type.">TypeError</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/TypeError$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/TypedArray" title="A TypedArray object describes an array-like view of an underlying binary data buffer. There is no global property named TypedArray, nor is there a directly visible TypedArray constructor.  Instead, there are a number of different global properties, whose values are typed array constructors for specific element types, listed below. On the following pages you will find common properties and methods that can be used with any typed array containing elements of any type.">TypedArray</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/TypedArray$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/URIError" title="The URIError object represents an error when a global URI handling function was used in a wrong way.">URIError</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/URIError$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array" title="The Uint16Array typed array represents an array of 16-bit unsigned integers in the platform byte order. If control over byte order is needed, use DataView instead. The contents are initialized to 0. Once established, you can reference elements in the array using the object's methods, or using standard array index syntax (that is, using bracket notation).">Uint16Array</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array" title="The Uint32Array typed array represents an array of 32-bit unsigned integers in the platform byte order. If control over byte order is needed, use DataView instead. The contents are initialized to 0. Once established, you can reference elements in the array using the object's methods, or using standard array index syntax (that is, using bracket notation).">Uint32Array</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array" title="The Uint8Array typed array represents an array of 8-bit unsigned integers. The contents are initialized to 0. Once established, you can reference elements in the array using the object's methods, or using standard array index syntax (that is, using bracket notation).">Uint8Array</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray" title="The Uint8ClampedArray typed array represents an array of 8-bit unsigned integers clamped to 0-255; if you specified a value that is out of the range of [0,255], 0 or 255 will be set instead; if you specify a non-integer, the nearest integer will be set. The contents are initialized to 0. Once established, you can reference elements in the array using the object's methods, or using standard array index syntax (that is, using bracket notation).">Uint8ClampedArray</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/WeakMap" title="The WeakMap object is a collection of key/value pairs in which the keys are weakly referenced.  The keys must be objects and the values can be arbitrary values.">WeakMap</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/WeakMap$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/WeakSet" title="The WeakSet object lets you store weakly held objects in a collection.">WeakSet</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/WeakSet$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly" title="The WebAssembly JavaScript object acts as the namespace for all WebAssembly-related functionality.">WebAssembly</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/decodeURI" title="The decodeURI() function decodes a Uniform Resource Identifier (URI) previously created by encodeURI or by a similar routine.">decodeURI()</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/decodeURI$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent" title="The decodeURIComponent() function decodes a Uniform Resource Identifier (URI) component previously created by encodeURIComponent or by a similar routine.">decodeURIComponent()</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/encodeURI" title='The encodeURI() function encodes a Uniform Resource Identifier (URI) by replacing each instance of certain characters by one, two, three, or four escape sequences representing the UTF-8 encoding of the character (will only be four escape sequences for characters composed of two "surrogate" characters).'>encodeURI()</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/encodeURI$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent" title='The encodeURIComponent() function encodes a Uniform Resource Identifier (URI) component by replacing each instance of certain characters by one, two, three, or four escape sequences representing the UTF-8 encoding of the character (will only be four escape sequences for characters composed of two "surrogate" characters).'>encodeURIComponent()</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/escape" title="The escape() function computes a new string in which certain characters have been replaced by a hexadecimal escape sequence.">escape()</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/escape$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/eval" title="The eval() function evaluates JavaScript code represented as a string.">eval()</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/eval$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/isFinite" title="The global isFinite() function determines whether the passed value is a finite number. If needed, the parameter is first converted to a number.">isFinite()</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/isFinite$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/isNaN" title="The isNaN() function determines whether a value is NaN or not. Note: coercion inside the isNaN function has interesting rules; you may alternatively want to use Number.isNaN(), as defined in ECMAScript 2015.">isNaN()</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/isNaN$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/null" title="The value null represents the intentional absence of any object value. It is one of JavaScript's primitive values.">null</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/null$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/parseFloat" title="The parseFloat() function parses an argument and returns a floating point number.">parseFloat()</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/parseFloat$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/parseInt" title="The parseInt() function parses a string argument and returns an integer of the specified radix (the base in mathematical numeral systems).">parseInt()</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/parseInt$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/undefined" title="The global undefined property represents the primitive value undefined. It is one of JavaScript's primitive types.">undefined</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/undefined$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/unescape" title="The unescape() function computes a new string in which hexadecimal escape sequences are replaced with the character that it represents. The escape sequences might be introduced by a function like escape. Usually, decodeURI or decodeURIComponent are preferred over unescape.">unescape()</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/unescape$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Global_Objects/uneval" title="The uneval() function creates a string representation of the source code of an Object.">uneval()</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Global_Objects/uneval$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li></ol>
+  </li>
+  <li data-default-state="closed"><a href="/bm/docs/Web/JavaScript/Reference/Operators">Expressions &amp; operators</a>
+   <ol><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators" title="Arithmetic operators take numerical values (either literals or variables) as their operands and return a single numerical value. The standard arithmetic operators are addition (+), subtraction (-), multiplication (*), and division (/).">Arithmetic operators</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This API has not been standardized."><i class="icon-warning-sign"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Operators/Array_comprehensions" title="The array comprehension syntax is a JavaScript expression which allows you to quickly assemble a new array based on an existing one. Comprehensions exist in many programming languages.">Array comprehensions</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Array_comprehensions$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/Assignment_Operators" title="An assignment operator assigns a value to its left operand based on the value of its right operand.">Assignment operators</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Assignment_Operators$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators" title="Bitwise operators treat their operands as a sequence of 32 bits (zeroes and ones), rather than as decimal, hexadecimal, or octal numbers. For example, the decimal number nine has a binary representation of 1001. Bitwise operators perform their operations on such binary representations, but they return standard JavaScript numerical values.">Bitwise operators</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/Comma_Operator" title="The comma operator evaluates each of its operands (from left to right) and returns the value of the last operand.">Comma operator</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Comma_Operator$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/Comparison_Operators" title="JavaScript has both strict and type–converting comparisons. A strict comparison (e.g., ===) is only true if the operands are of the same type and the contents match. The more commonly-used abstract comparison (e.g. ==) converts the operands to the same type before making the comparison. For relational abstract comparisons (e.g., &lt;=), the operands are first converted to primitives, then to the same type, before comparison.">Comparison operators</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Comparison_Operators$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/Conditional_Operator" title="The conditional (ternary) operator is the only JavaScript operator that takes three operands. This operator is frequently used as a shortcut for the if statement.">Conditional (ternary) Operator</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Conditional_Operator$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment" title="The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.">Destructuring assignment</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/Expression_closures" title="Expression closures are a shorthand function syntax for writing simple functions.">Expression closures</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Expression_closures$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This API has not been standardized."><i class="icon-warning-sign"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Operators/Generator_comprehensions" title="The generator comprehension syntax is a JavaScript expression which allows you to quickly assemble a new generator function based on an existing iterable object. Comprehensions exist in many programming languages.">Generator comprehensions</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Generator_comprehensions$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/Grouping" title="The grouping operator ( ) controls the precedence of evaluation in expressions.">Grouping operator</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Grouping$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/Legacy_generator_function" title="The function keyword can be used to define a legacy generator function inside an expression. To make the function a legacy generator, the function body should contain at least one yield expression.">Legacy generator function expression</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Legacy_generator_function$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/Logical_Operators" title="Logical operators are typically used with Boolean (logical) values. When they are, they return a Boolean value. However, the &amp;&amp; and || operators actually return the value of one of the specified operands, so if these operators are used with non-Boolean values, they may return a non-Boolean value.">Logical Operators</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Logical_Operators$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/Object_initializer" title="Objects can be initialized using new Object(), Object.create(), or using the literal notation (initializer notation). An object initializer is a comma-delimited list of zero or more pairs of property names and associated values of an object, enclosed in curly braces ({}).">Object initializer</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Object_initializer$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/Operator_Precedence" title="Operator precedence determines the way in which operators are parsed with respect to each other. Operators with higher precedence become the operands of operators with lower precendence.">Operator precedence</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Operator_Precedence$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/Property_Accessors" title="Property accessors provide access to an object's properties by using the dot notation or the bracket notation.">Property accessors</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Property_Accessors$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/Spread_operator" title="Spread syntax allows an iterable such as an array expression to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected.">Spread syntax</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/Spread_operator$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Operators/async_function" title="The async function keyword can be used to define async functions inside expressions.">async function expression</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/async_function$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This is an experimental API that should not be used in production code."><i class="icon-beaker"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Operators/await" title="The await operator is used to wait for a Promise. It can only be used inside an async function.">await</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/await$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/class" title="The class expression is one way to define a class in ECMAScript 2015. Similar to function expressions, class expressions can be named or unnamed. If named, the name of the class is local to the class body only. JavaScript classes are using prototype-based inheritance.">class expression</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/class$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/delete" title="The delete operator removes a property from an object.">delete operator</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/delete$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/function" title="The function keyword can be used to define a function inside an expression.">function expression</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/function$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/function*" title="The function* keyword can be used to define a generator function inside an expression.">function* expression</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/function*$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/in" title="The in operator returns true if the specified property is in the specified object or its prototype chain.">in operator</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/in$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/instanceof" title="The instanceof operator tests whether the prototype property of a constructor appears anywhere in the prototype chain of an object.">instanceof</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/instanceof$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/new" title="The new operator creates an instance of a user-defined object type or of one of the built-in object types that has a constructor function.">new operator</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/new$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/new.target" title="The new.target property lets you detect whether a function or constructor was called using the new operator. In constructors and functions instantiated with the new operator, new.target returns a reference to the constructor or function. In normal function calls, new.target is undefined.">new.target</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/new.target$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/super" title="The super keyword is used to call functions on an object's parent.">super</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/super$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/this" title="A function's this keyword behaves a little differently in JavaScript compared to other languages. It also has some differences between strict mode and non-strict mode.">this</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/this$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/typeof" title="The typeof operator returns a string indicating the type of the unevaluated operand.">typeof</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/typeof$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/void" title="The void operator evaluates the given expression and then returns undefined.">void operator</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/void$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/yield" title="The yield keyword is used to pause and resume a generator function (function* or legacy generator function).">yield</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/yield$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Operators/yield*" title="The yield* expression is used to delegate to another generator or iterable object.">yield*</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Operators/yield*$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li></ol>
+  </li>
+  <li data-default-state="closed"><a href="/bm/docs/Web/JavaScript/Reference/Statements">Statements &amp; declarations</a>
+   <ol><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/Legacy_generator_function" title="The legacy generator function statement declares legacy generator functions with the specified parameters.">Legacy generator function</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/Legacy_generator_function$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/async_function" title="An AsyncFunction object, representing an asynchronous function which executes the code contained within the function.">async function</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/async_function$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/block" title="A block statement (or compound statement in other languages) is used to group zero or more statements. The block is delimited by a pair of curly brackets and may optionally be labelled:">block</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/block$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/break" title="The break statement terminates the current loop, switch, or label statement and transfers program control to the statement following the terminated statement.">break</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/break$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/class" title="The class declaration creates a new class with a given name using prototype-based inheritance.">class</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/class$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/const" title="This declaration creates a constant whose scope can be either global or local to the block in which it is declared. Global constants do not become properties of the window object, unlike var variables. An initializer for a constant is required; that is, you must specify its value in the same statement in which it's declared (which makes sense, given that it can't be changed later).">const</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/const$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/continue" title="The continue statement terminates execution of the statements in the current iteration of the current or labeled loop, and continues execution of the loop with the next iteration.">continue</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/continue$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/debugger" title="The debugger statement invokes any available debugging functionality, such as setting a breakpoint. If no debugging functionality is available, this statement has no effect.">debugger</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/debugger$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/default" title="The default keyword can be used in two situations in JavaScript: within a switch statement, or with an export statement.">default</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/default$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/do...while" title="The do...while statement creates a loop that executes a specified statement until the test condition evaluates to false. The condition is evaluated after executing the statement, resulting in the specified statement executing at least once.">do...while</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/do...while$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/Empty" title="An empty statement is used to provide no statement, although the JavaScript syntax would expect one.">empty</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/Empty$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/export" title="The export statement is used when creating JavaScript modules to export functions, objects, or primitive values from the module so they can be used by other programs with the import statement.">export</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/export$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/for" title="The for statement creates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement (usually a block statement) to be executed in the loop.">for</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/for$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This deprecated API should no longer be used, but will probably still work."><i class="icon-thumbs-down-alt"> </i></span></span><span class="sidebar-icon"><span title="This is an obsolete API and is no longer guaranteed to work."><i class="icon-trash"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Statements/for_each...in" title="The for each...in statement iterates a specified variable over all values of object's properties. For each distinct property, a specified statement is executed.">for each...in</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/for_each...in$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/for...in" title="The for...in statement iterates over the enumerable properties of an object, in original insertion order. For each distinct property, statements can be executed.">for...in</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/for...in$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/for...of" title="The for...of statement creates a loop iterating over iterable objects (including Array, Map, Set, String, TypedArray, arguments object and so on), invoking a custom iteration hook with statements to be executed for the value of each distinct property.">for...of</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/for...of$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/function" title="The function declaration defines a function with the specified parameters.">function declaration</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/function$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/function*" title="The function* declaration (function keyword followed by an asterisk) defines a generator function, which returns a Generator object.">function*</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/function*$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/if...else" title="The if statement executes a statement if a specified condition is truthy. If the condition is falsy, another statement can be executed.">if...else</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/if...else$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/import" title="The import statement is used to import bindings which are exported by another module.">import</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/import$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/label" title="The labeled statement can be used with break or continue statements. It is prefixing a statement with an identifier which you can refer to.">label</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/label$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/let" title="The let statement declares a block scope local variable, optionally initializing it to a value.">let</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/let$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/return" title="The return statement ends function execution and specifies a value to be returned to the function caller.">return</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/return$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/switch" title="The switch statement evaluates an expression, matching the expression's value to a case clause, and executes statements associated with that case.">switch</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/switch$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/throw" title="The throw statement throws a user-defined exception. Execution of the current function will stop (the statements after throw won't be executed), and control will be passed to the first catch block in the call stack. If no catch block exists among caller functions, the program will terminate.">throw</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/throw$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/try...catch" title="The try...catch statement marks a block of statements to try, and specifies a response, should an exception be thrown.">try...catch</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/try...catch$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/var" title="The variable statement declares a variable, optionally initializing it to a value.">var</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/var$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Statements/while" title="The while statement creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated before executing the statement.">while</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/while$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><span class="sidebar-icon"><span title="This deprecated API should no longer be used, but will probably still work."><i class="icon-thumbs-down-alt"> </i></span></span><a href="/bm/docs/Web/JavaScript/Reference/Statements/with" title="The with statement extends the scope chain for a statement.">with</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Statements/with$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li></ol>
+  </li>
+  <li data-default-state="closed"><a href="/bm/docs/Web/JavaScript/Reference/Functions">Functions</a>
+   <ol><li><a href="/bm/docs/Web/JavaScript/Reference/Functions/arguments" title="The arguments object is an Array-like object corresponding to the arguments passed to a function.">Arguments object</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Functions/arguments$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Functions/Arrow_functions" title="An arrow function expression has a shorter syntax than a function expression and does not bind its own this, arguments, super, or new.target. These function expressions are best suited for non-method functions, and they cannot be used as constructors.">Arrow functions</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Functions/Arrow_functions$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Functions/Default_parameters" title="Default function parameters allow formal parameters to be initialized with default values if no value or undefined is passed.">Default parameters</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Functions/Default_parameters$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Functions/Method_definitions" title="Starting with ECMAScript 2015, a shorter syntax for method definitions on objects initializers is introduced. It is a shorthand for a function assigned to the method's name.">Method definitions</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Functions/Method_definitions$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Functions/rest_parameters" title="The rest parameter syntax allows us to represent an indefinite number of arguments as an array.">Rest parameters</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Functions/rest_parameters$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Functions/get" title="The get syntax binds an object property to a function that will be called when that property is looked up.">getter</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Functions/get$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Functions/set" title="The set syntax binds an object property to a function to be called when there is an attempt to set that property.">setter</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Functions/set$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li></ol>
+  </li>
+  <li data-default-state="closed"><a href="/bm/docs/Web/JavaScript/Reference/Classes">Classes</a>
+   <ol><li><a href="/bm/docs/Web/JavaScript/Reference/Classes/constructor" title="The constructor method is a special method for creating and initializing an object created within a class.">constructor</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Classes/constructor$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Classes/extends" title="The extends keyword is used in class declarations or class expressions to create a class which is a child of another class.">extends</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Classes/extends$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Classes/static" title="The static keyword defines a static method for a class.">static</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Classes/static$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li></ol>
+  </li>
+  <li data-default-state="closed"><a href="/bm/docs/Web/JavaScript/Reference/Errors">Errors</a>
+   <ol><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Property_access_denied" title="There was attempt to access an object for which you have no permission. This is likely an &lt;iframe> element loaded from a different domain for which you violated the same-origin policy.">Error: Permission denied to access property "x"</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Too_much_recursion" title="When there is too much or infinite recursion, JavaScript will throw this error.">InternalError: too much recursion</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Too_much_recursion$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Not_a_codepoint" title="RangeError">RangeError: argument is not a valid code point</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Not_a_codepoint$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Invalid_array_length" title="RangeError">RangeError: invalid array length</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Invalid_array_length$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Invalid_date" title="RangeError">RangeError: invalid date</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Invalid_date$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Precision_range" title="RangeError">RangeError: precision is out of range</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Precision_range$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Bad_radix" title="RangeError">RangeError: radix must be an integer</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Bad_radix$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Resulting_string_too_large" title="RangeError">RangeError: repeat count must be less than infinity</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Resulting_string_too_large$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Negative_repetition_count" title="RangeError">RangeError: repeat count must be non-negative</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Negative_repetition_count$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Not_defined" title="ReferenceError.">ReferenceError: "x" is not defined</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Not_defined$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Undeclared_var" title="ReferenceError warning in strict mode only.">ReferenceError: assignment to undeclared variable "x"</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Undeclared_var$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Cant_access_lexical_declaration_before_init" title="ReferenceError">ReferenceError: can't access lexical declaration`X' before initialization</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Cant_access_lexical_declaration_before_init$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Deprecated_caller_or_arguments_usage" title="A strict-mode-only warning that a ReferenceError occurred. JavaScript execution won't be halted.">ReferenceError: deprecated caller or arguments usage</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Deprecated_caller_or_arguments_usage$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Invalid_assignment_left-hand_side" title="ReferenceError.">ReferenceError: invalid assignment left-hand side</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Invalid_assignment_left-hand_side$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Undefined_prop" title="ReferenceError warning in strict mode only.">ReferenceError: reference to undefined property "x"</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Undefined_prop$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Deprecated_octal" title="SyntaxError in strict mode only.">SyntaxError: "0"-prefixed octal literals and octal escape seq. are deprecated</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Deprecated_octal$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Strict_Non_Simple_Params" title="SyntaxError.">SyntaxError: "use strict" not allowed in function with non-simple parameters</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Strict_Non_Simple_Params$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Reserved_identifier" title="SyntaxError">SyntaxError: "x" is a reserved identifier</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Reserved_identifier$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/JSON_bad_parse" title="SyntaxError">SyntaxError: JSON.parse: bad parsing</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/JSON_bad_parse$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Malformed_formal_parameter" title="SyntaxError">SyntaxError: Malformed formal parameter</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Malformed_formal_parameter$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Unexpected_token" title="SyntaxError">SyntaxError: Unexpected token</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Unexpected_token$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Deprecated_source_map_pragma" title="A warning that a SyntaxError occurred. JavaScript execution won't be halted.">SyntaxError: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Deprecated_source_map_pragma$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Invalid_for-of_initializer" title="SyntaxError">SyntaxError: a declaration in the head of a for-of loop can't have an initializer</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Invalid_for-of_initializer$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Delete_in_strict_mode" title="SyntaxError in strict mode only.">SyntaxError: applying the 'delete' operator to an unqualified name is deprecated</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Delete_in_strict_mode$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Invalid_for-in_initializer" title="SyntaxError in strict mode only.">SyntaxError: for-in loop head declarations may not have initializers</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Invalid_for-in_initializer$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Unnamed_function_statement" title="SyntaxError">SyntaxError: function statement requires a name</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Unnamed_function_statement$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Identifier_after_number" title="SyntaxError">SyntaxError: identifier starts immediately after numeric literal</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Identifier_after_number$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Illegal_character" title="SyntaxError">SyntaxError: illegal character</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Illegal_character$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Bad_regexp_flag" title="SyntaxError">SyntaxError: invalid regular expression flag "x"</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Bad_regexp_flag$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list" title="SyntaxError.">SyntaxError: missing ) after argument list</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_condition" title="SyntaxError">SyntaxError: missing ) after condition</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_condition$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_colon_after_property_id" title="SyntaxError">SyntaxError: missing : after property id</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_colon_after_property_id$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_semicolon_before_statement" title="SyntaxError.">SyntaxError: missing ; before statement</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_semicolon_before_statement$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_initializer_in_const" title="SyntaxError">SyntaxError: missing = in const declaration</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_initializer_in_const$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_bracket_after_list" title="SyntaxError.">SyntaxError: missing ] after element list</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_bracket_after_list$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_formal_parameter" title="SyntaxError">SyntaxError: missing formal parameter</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_formal_parameter$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_name_after_dot_operator" title="SyntaxError">SyntaxError: missing name after . operator</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_name_after_dot_operator$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/No_variable_name" title="SyntaxError">SyntaxError: missing variable name</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/No_variable_name$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_function_body" title="SyntaxError">SyntaxError: missing } after function body</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_function_body$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_property_list" title="SyntaxError">SyntaxError: missing } after property list</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_property_list$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Redeclared_parameter" title="SyntaxError">SyntaxError: redeclaration of formal parameter "x"</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Redeclared_parameter$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Bad_return_or_yield" title="SyntaxError.">SyntaxError: return not in function</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Bad_return_or_yield$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Equal_as_assign" title="SyntaxError warning in strict mode only.">SyntaxError: test for equality (==) mistyped as assignment (=)?</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Equal_as_assign$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Unterminated_string_literal" title="SyntaxError">SyntaxError: unterminated string literal</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Unterminated_string_literal$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/No_properties" title="TypeError.">TypeError: "x" has no properties</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/No_properties$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Unexpected_type" title="TypeError.">TypeError: "x" is (not) "y"</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Unexpected_type$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Not_a_constructor" title="TypeError">TypeError: "x" is not a constructor</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Not_a_constructor$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Not_a_function" title="TypeError.">TypeError: "x" is not a function</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Not_a_function$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/No_non-null_object" title="TypeError">TypeError: "x" is not a non-null object</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/No_non-null_object$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Read-only" title="TypeError">TypeError: "x" is read-only</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Read-only$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/More_arguments_needed" title="TypeError.">TypeError: More arguments needed</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/More_arguments_needed$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Dead_object" title="TypeError">TypeError: can't access dead object</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Dead_object$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Cant_define_property_object_not_extensible" title="TypeError">TypeError: can't define property "x": "obj" is not extensible</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Cant_define_property_object_not_extensible$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Non_configurable_array_element" title="TypeError">TypeError: can't delete non-configurable array element</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Non_configurable_array_element$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Cant_redefine_property" title="TypeError">TypeError: can't redefine non-configurable property "x"</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Cant_redefine_property$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Cyclic_object_value" title="TypeError">TypeError: cyclic object value</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Cyclic_object_value$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/in_operator_no_object" title="TypeError">TypeError: invalid 'in' operand "x"</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/in_operator_no_object$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Array_sort_argument" title="TypeError">TypeError: invalid Array.prototype.sort argument</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Array_sort_argument$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Typed_array_invalid_arguments" title="TypeError">TypeError: invalid arguments</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Typed_array_invalid_arguments$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment" title="TypeError">TypeError: invalid assignment to const "x"</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Cant_delete" title="TypeError in strict mode only.">TypeError: property "x" is non-configurable and can't be deleted</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Cant_delete$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Getter_only" title="TypeError in strict mode only.">TypeError: setting getter-only property "x"</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Getter_only$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Var_hides_argument" title="TypeError warning in strict mode only.">TypeError: variable "x" redeclares argument</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Var_hides_argument$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Malformed_URI" title="URIError">URIError: malformed URI sequence</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Malformed_URI$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Already_has_pragma" title="A warning. JavaScript execution won't be halted.">Warning: -file- is being assigned a //# sourceMappingURL, but already has one</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Already_has_pragma$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Bad_octal" title="Warning. JavaScript execution won't be halted.">Warning: 08/09 is not a legal ECMA-262 octal constant</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Bad_octal$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Deprecated_toLocaleFormat" title="Warning. JavaScript execution won't be halted.">Warning: Date.prototype.toLocaleFormat is deprecated</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Deprecated_toLocaleFormat$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/For-each-in_loops_are_deprecated" title="Warning">Warning: JavaScript 1.6's for-each-in loops are deprecated</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/For-each-in_loops_are_deprecated$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Deprecated_String_generics" title="Warning. JavaScript execution won't be halted.">Warning: String.x is deprecated; use String.prototype.x instead</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Deprecated_String_generics$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Deprecated_expression_closures" title="Warning. JavaScript execution won't be halted.">Warning: expression closures are deprecated</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Deprecated_expression_closures$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Stmt_after_return" title="Warning">Warning: unreachable code after return statement</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Stmt_after_return$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/Reference/Errors/Called_on_incompatible_type" title="TypeError">X.prototype.y called on incompatible type</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/Reference/Errors/Called_on_incompatible_type$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li></ol>
+  </li>
+  <li data-default-state="closed"><a href="#">Misc</a>
+   <ol>
+    <li><a href="/bm/docs/Web/JavaScript/JavaScript_technologies_overview">JavaScript technologies overview</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/Reference/Lexical_grammar">Lexical grammar</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/Data_structures">JavaScript data structures</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/Enumerability_and_ownership_of_properties">Enumerability and ownership of properties</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/Reference/Iteration_protocols">Iteration protocols</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/Reference/Strict_mode">Strict mode</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/Reference/Strict_mode/Transitioning_to_strict_mode">Transitioning to strict mode</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/Reference/Template_literals">Template literals</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features">Deprecated features</a></li>
+   </ol>
+  </li>
+  <li data-default-state="closed"><a href="/bm/docs/Web/JavaScript/New_in_JavaScript">New in JavaScript</a>
+   <ol><li><a href="/bm/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_2015_support_in_Mozilla" title="ECMAScript 2015 is the sixth edition of the ECMAScript Language Specification standard. It defines the standard for the JavaScript implementation in SpiderMonkey, the engine used in Firefox and other Mozilla applications.">ECMAScript 2015 support in Mozilla</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_2015_support_in_Mozilla$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_5_support_in_Mozilla" title="ECMAScript 5.1, an older version of the standard upon which JavaScript is based, was approved in June 2011.">ECMAScript 5 support in Mozilla</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_5_support_in_Mozilla$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_Next_support_in_Mozilla" title="ECMAScript Next refers to new features of the ECMA-262 standard (commonly referred to as JavaScript) introduced after ECMAScript 2015. New versions of ECMAScript specifications are released yearly. This year, the ES2016 specification will be released and the ES2017 is the current ECMAScript draft specification.">ECMAScript Next support in Mozilla</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_Next_support_in_Mozilla$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/New_in_JavaScript/Firefox_JavaScript_changelog" title="The following is a changelog for JavaScript features in Firefox releases.">Firefox JavaScript changelog</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/New_in_JavaScript/Firefox_JavaScript_changelog$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.1" title='The following is a changelog for JavaScript from Netscape Navigator 2.0 to 3.0. The old Netscape documentation references this as "Features added after version 1". Netscape Navigator 3.0 was released on August 19, 1996. Netscape Navigator 3.0 was the second major version of the browser with JavaScript support.'>New in JavaScript 1.1</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.1$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.2" title="The following is a changelog for JavaScript from Netscape Navigator 3.0 to 4.0. The old Netscape documentation can be found on archive.org. Netscape Navigator 4.0 was released on June 11, 1997. Netscape Navigator 4.0 was the third major version of the browser with JavaScript support.">New in JavaScript 1.2</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.2$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.3" title="The following is a changelog for JavaScript from Netscape Navigator 4.0 to 4.5. The old Netscape documentation can be found on archive.org. Netscape Navigator 4.5 was released on October 19, 1998.">New in JavaScript 1.3</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.3$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.4" title="The following is a changelog for JavaScript 1.4, which was only used for Netscape's server side JavaScript released in 1999. The old Netscape documentation can be found on archive.org.">New in JavaScript 1.4</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.4$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.5" title="The following is a changelog for JavaScript 1.5. This version was included in Netscape Navigator 6.0 was released on November 14, 2000 and was also used in later versions of Netscape Navigator and Firefox 1.0. You can compare JavaScript 1.5 to JScript version 5.5 and Internet Explorer 5.5, which was released in July 2000. The corresponding ECMA standard is ECMA-262 Edition 3 (from December 1999).">New in JavaScript 1.5</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.5$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.6" title="The following is a changelog for JavaScript 1.6. This version was included in Firefox 1.5 (Gecko 1.8), which was released in November 2005. The corresponding ECMA standard is ECMA-262 Edition 3 and ECMAScript for XML (E4X) with some additional features. Several new features were introduced: E4X, several new Array methods, and Array and String generics.">New in JavaScript 1.6</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.6$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.7" title="The following is a changelog for JavaScript 1.7. This version was included in Firefox 2 (October 2006).">New in JavaScript 1.7</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.7$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.8" title="The following is a changelog for JavaScript 1.8. This version was included in Firefox 3 and is part of Gecko 1.9. See bug 380236 for a tracking development bug for JavaScript 1.8.">New in JavaScript 1.8</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.8$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.8.1" title="The following is a changelog for JavaScript 1.8.1. This version was included in Firefox 3.5.">New in JavaScript 1.8.1</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.8.1$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li><li><a href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.8.5" title="The following is a changelog for JavaScript 1.8.5. This version was included in Firefox 4.">New in JavaScript 1.8.5</a> <a style="opacity: 0.5;" href="/bm/docs/Web/JavaScript/New_in_JavaScript/1.8.5$translate" title="Our volunteers haven't translated this article into your language yet. Join us and help get the job done!">[Translate]</a></li></ol>
+  </li>
+  <li><strong><a href="/bm/docs/MDN">Documentation:</a></strong></li>
+  <li data-default-state="closed"><a href="#">Useful lists</a>
+   <ol>
+    <li><a href="/bm/docs/Web/JavaScript/Index">All pages index</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/Reference/Methods_Index">Methods index</a></li>
+    <li><a href="/bm/docs/Web/JavaScript/Reference/Properties_Index">Properties index</a></li>
+    <li><a href="/bm/docs/tag/JavaScript">Pages tagged "JavaScript"</a></li>
+   </ol>
+  </li>
+  <li data-default-state="closed"><a href="#">Contribute</a>
+   <ol>
+    <li><a href="/bm/docs/MDN/Doc_status/JavaScript">JavaScript doc status</a></li>
+    <li><a href="/bm/docs/MDN">The MDN project</a></li>
+   </ol>
+  </li>
+ </ol>
+
+  </div>
+                
+
+                <!-- approvals -->
+                
+
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div> <!-- ends "main-content" -->
+
+    
+      <div class="newsletter-box">
+      <div class="newsletter">
+    <form id="newsletterForm" class="newsletter-form nodisable" name="newsletter-form" action="https://www.mozilla.org/en-US/newsletter/" method="post">
+        <div class="newsletter-head">
+            <h2 class="newsletter-teaser">Learn the best of web development</h2>
+            <p class="newsletter-description">Get the latest and greatest from MDN delivered straight to your inbox.</p>
+            
+            <p class="newsletter-lang">The newsletter is offered in English only at the moment.</p>
+            
+        </div>
+
+        <div class="newsletter-fields">
+            <input type="hidden" id="fmt" name="fmt" value="H">
+            <input type="hidden" id="newsletterNewslettersInput" name="newsletters" value="app-dev" />
+            <div id="newsletterErrors" class="newsletter-errors"></div>
+
+            <div id="newsletterEmail" class="form-group newsletter-group-email">
+                <label for="newsletterEmailInput" class="form-label offscreen">E-mail</label>
+                <input type="email" id="newsletterEmailInput" name="email" class="form-input newsletter-input-email" required placeholder="you@example.com" size="30">
+            </div>
+
+            <div id="newsletterPrivacy" class="form-group form-group-agree newsletter-group-privacy hidden">
+                <input type="checkbox" id="newsletterPrivacyInput" name="privacy" required>
+                <label for="newsletterPrivacyInput">
+                I'm okay with Mozilla handling my info as explained in this <a href="https://www.mozilla.org/privacy/">Privacy Policy</a>.
+                </label>
+            </div>
+            <div id="newsletterSubmit" class="newsletter-group-submit">
+                <button id="newsletter-submit" type="submit" class="button neutral newsletter-submit">Sign up now</button>
+            </div>
+        </div>
+    </form>
+    <div id="newsletterThanks" class="newsletter-thanks hidden">
+        <h2>Thanks! Please check your inbox to confirm your subscription.</h2>
+        <p>If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us.
+        </p>
+    </div>
+    <button id="newsletterHide" type="button" class="only-icon newsletter-hide hidden"><span>Hide Newsletter Sign-up</span><i aria-hidden="true" class="icon-times"></i></button>
+</div>
+      </div>
+    
+
+  <menu type="context" id="edit-history-menu">
+    <menuitem data-action="/bm/docs/Web/JavaScript$edit" label="Edit page"></menuitem>
+    <menuitem data-action="/bm/docs/Web/JavaScript$history" label="View page history"></menuitem>
+  </menu>
+
+      </div>
+  </main>
+
+  <!-- redesign notices -->
+  
+  <!-- Footer -->
+    <footer id="nav-footer" class="nav-footer">
+      <div class="center">
+          <a href="/bm/" class="nav-footer-logo">MDN Web Docs</a>
+          <div class="footer-group footer-group-mdn">
+            <h2 class="footer-title">MDN</h2>
+            <ul class="footer-list">
+              <li><a href="/bm/docs/Web">Web Technologies</a></li>
+              <li><a href="/bm/docs/Learn">Learn Web Development</a></li>
+              <li><a href="/docs/MDN/About">About MDN</a></li>
+              <li><a href="/bm/docs/MDN/Feedback">Feedback</a></li>
+              <li class="footer-social"><a href="https://twitter.com/mozdevnet" class="only-icon"><i aria-hidden="true" class="icon-twitter"></i> <span>Twitter</span></a></li>
+              <li class="footer-social"><a href="https://github.com/mdn/" class="only-icon"><i aria-hidden="true" class="icon-github"></i> <span>GitHub</span></a></li>
+            </ul>
+          </div>
+
+          <a href="https://mozilla.org" class="nav-footer-mozilla">Mozilla</a>
+          <div class="footer-group footer-group-mozilla">
+            <h2 class="footer-title">Mozilla</h2>
+            <ul class="footer-list">
+              <li><a href="https://www.mozilla.org/about/">About</a></li>
+              <li><a href="https://www.mozilla.org/contact/">Contact Us</a></li>
+              <li><a href="https://donate.mozilla.org/?utm_source=developer.mozilla.org&utm_medium=referral&utm_content=footer">Donate</a></li>
+              <li><a href="https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&utm_campaign=footer&utm_medium=referral">Firefox</a></li>
+              <li class="footer-social"><a href="https://twitter.com/mozilla" class="only-icon"><i aria-hidden="true" class="icon-twitter"></i> <span>Twitter</span></a></li>
+              <li class="footer-social"><a href="https://www.facebook.com/mozilla" class="only-icon"><i aria-hidden="true" class="icon-facebook"></i> <span>Facebook</span></a></li>
+              <li class="footer-social"><a href="https://www.instagram.com/mozillagram/" class="only-icon"><i aria-hidden="true" class="icon-instagram"></i> <span>Instagram</span></a></li>
+            </ul>
+          </div>
+
+          
+            
+  
+    <form class="languages go" method="get" action="/bm/docs/Web">
+      <label for="language">Other languages:</label>
+      <select id="language" class="wiki-l10n" name="next" dir="ltr">
+        <option title="Bambara" value="/bm/docs/Web/JavaScript" selected>
+          Bamanankan (bm)
+        </option>
+        
+          <option title="English (US)" value="/en-US/docs/Web/JavaScript">
+            English (US) (en-US)
+          </option>
+          <option title="Arabic" value="/ar/docs/Web/JavaScript">
+            عربي (ar)
+          </option>
+          <option title="Bengali (Bangladesh)" value="/bn-BD/docs/Web/JavaScript">
+            বাংলা (বাংলাদেশ) (bn-BD)
+          </option>
+          <option title="Bengali (India)" value="/bn-IN/docs/Web/%E0%A6%9C%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A7%8D%E0%A6%9F">
+            বাংলা (ভারত) (bn-IN)
+          </option>
+          <option title="Catalan" value="/ca/docs/Web/JavaScript">
+            Català (ca)
+          </option>
+          <option title="Czech" value="/cs/docs/Web/JavaScript">
+            Čeština (cs)
+          </option>
+          <option title="German" value="/de/docs/Web/JavaScript">
+            Deutsch (de)
+          </option>
+          <option title="Greek" value="/el/docs/Web/JavaScript">
+            Ελληνικά (el)
+          </option>
+          <option title="Spanish" value="/es/docs/Web/JavaScript">
+            Español (es)
+          </option>
+          <option title="Persian" value="/fa/docs/Web/JavaScript">
+            فارسی (fa)
+          </option>
+          <option title="French" value="/fr/docs/Web/JavaScript">
+            Français (fr)
+          </option>
+          <option title="Hebrew" value="/he/docs/Web/JavaScript">
+            עברית (he)
+          </option>
+          <option title="Hindi (India)" value="/hi-IN/docs/Web/JavaScript">
+            हिन्दी (भारत) (hi-IN)
+          </option>
+          <option title="Hungarian" value="/hu/docs/Web/JavaScript">
+            magyar (hu)
+          </option>
+          <option title="Indonesian" value="/id/docs/Web/JavaScript">
+            Bahasa Indonesia (id)
+          </option>
+          <option title="Italian" value="/it/docs/Web/JavaScript">
+            Italiano (it)
+          </option>
+          <option title="Japanese" value="/ja/docs/Web/JavaScript">
+            日本語 (ja)
+          </option>
+          <option title="Georgian" value="/ka/docs/Web/JavaScript">
+            ქართული (ka)
+          </option>
+          <option title="Kabyle" value="/kab/docs/Web/JavaScript">
+            Taqbaylit (kab)
+          </option>
+          <option title="Korean" value="/ko/docs/Web/JavaScript">
+            한국어 (ko)
+          </option>
+          <option title="Malay" value="/ms/docs/Web/JavaScript">
+            Melayu (ms)
+          </option>
+          <option title="Burmese" value="/my/docs/Web/JavaScript">
+            မြန်မာဘာသာ (my)
+          </option>
+          <option title="Dutch" value="/nl/docs/Web/JavaScript">
+            Nederlands (nl)
+          </option>
+          <option title="Polish" value="/pl/docs/Web/JavaScript">
+            Polski (pl)
+          </option>
+          <option title="Portuguese (Brazilian)" value="/pt-BR/docs/Web/JavaScript">
+            Português (do Brasil) (pt-BR)
+          </option>
+          <option title="Portuguese (Portugal)" value="/pt-PT/docs/Web/JavaScript">
+            Português (Europeu) (pt-PT)
+          </option>
+          <option title="Romanian" value="/ro/docs/Web/JavaScript">
+            Română (ro)
+          </option>
+          <option title="Russian" value="/ru/docs/Web/JavaScript">
+            Русский (ru)
+          </option>
+          <option title="Albanian" value="/sq/docs/Web/JavaScript">
+            Shqip (sq)
+          </option>
+          <option title="Serbian" value="/sr/docs/Web/JavaScript">
+            Српски (sr)
+          </option>
+          <option title="Swedish" value="/sv-SE/docs/Web/JavaScript">
+            Svenska (sv-SE)
+          </option>
+          <option title="Tamil" value="/ta/docs/Web/JavaScript">
+            தமிழ் (ta)
+          </option>
+          <option title="Thai" value="/th/docs/Web/JavaScript">
+            ไทย (th)
+          </option>
+          <option title="Turkish" value="/tr/docs/Web/JavaScript">
+            Türkçe (tr)
+          </option>
+          <option title="Ukrainian" value="/uk/docs/Web/JavaScript">
+            Українська (uk)
+          </option>
+          <option title="Vietnamese" value="/vi/docs/Web/JavaScript">
+            Tiếng Việt (vi)
+          </option>
+          <option title="Chinese (Simplified)" value="/zh-CN/docs/Web/JavaScript">
+            中文 (简体) (zh-CN)
+          </option>
+          <option title="Chinese (Traditional)" value="/zh-TW/docs/Web/JavaScript">
+            正體中文 (繁體) (zh-TW)
+          </option>
+      </select>
+      <noscript><button type="submit">Go</button></noscript>
+    </form>
+  
+
+          
+
+          
+            <ul class="footer-tos">
+              <li><a href="https://www.mozilla.org/about/legal/terms/mozilla">Terms</a></li>
+              <li><a href="https://www.mozilla.org/privacy/websites/">Privacy</a></li>
+              <li><a href="https://www.mozilla.org/privacy/websites/#cookies">Cookies</a></li>
+            </ul>
+
+            <div class="contentinfo">
+              <p>&copy; 2005-2017 Mozilla and individual contributors.</p> <p>Content is available under <a href="/en-US/docs/MDN/About#Copyrights_and_licenses">these licenses</a>.</p>
+            </div>
+          
+      </div>
+    </footer> 
+
+  <!-- site js -->
+  
+    
+    <!--[if lte IE 8]><script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/selectivizr.091e18cf669b.js" charset="utf-8"></script><![endif]-->
+
+    
+    <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/jsi18n/bm/javascript.b07d4f493108.js"></script>
+    <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/main.0a73d7502ddf.js" charset="utf-8"></script>
+    
+      <script>
+        if(window.mdn && mdn.analytics) mdn.analytics.trackOutboundLinks();
+      </script>
+    
+    
+
+  
+
+    
+        <script async type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/wiki-skinny.2187d581918b.js" charset="utf-8"></script>
+    
+
+
+
+  
+
+  
+
+  
+
+  
+    <script async type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/newsletter.7cd3274169f2.js" charset="utf-8"></script>
+  
+
+
+</body>
+</html>.u�U]�      Yݵ�Yݵ�>JW�Y��r   5    :https://developer.mozilla.org/bm/docs/Web/JavaScript necko:classified 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAQAAgAAAAAAAAAAAAAAAAAAAAAB4vFIJp5wRkeyPxAQ9RJGKPqbqVvKO0mKuIl8ec8o/uhmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAASMMIIEiDCCA3CgAwIBAgIQCJ2kbV9OxPG9XpNCw9K3tzANBgkqhkiG9w0BAQsFADBGMQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRUwEwYDVQQLEwxTZXJ2ZXIgQ0EgMUIxDzANBgNVBAMTBkFtYXpvbjAeFw0xNzA5MTUwMDAwMDBaFw0xODEwMTUxMjAwMDBaMCAxHjAcBgNVBAMTFWRldmVsb3Blci5tb3ppbGxhLm9yZzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKTYdeYH1oriG1WQCOA9URgD8hpJsr5jDxZsXpsR4p5kBzOj07uO8Huc3DxsIz/BCSArPsLCVSLM7FMkvjUyCLidV+HcJggZXmp8CZGaYTdXNMXnRvL6cI1fZ99h9jMxIYH8MOVEIQCD2/8R+WBXw7wZjItRh2SvU451r9fXxnBS0GxOOIRL3LSkh8Jx1cCdTlPp689g8G2iMFkFEWR7s+1r+1VGPtZyne2k2dy7Z7F+Cg4cgJEZRhFo0Xbcc+UNcCfeCAkIPX4b6vf7Et7HQd7RU5oezgYbIEJOrYrpI/OkI1aCGrGq1hFt+QueAHdpi/jB/Wsl/77+X+3PR2cY+BkCAwEAAaOCAZYwggGSMB8GA1UdIwQYMBaAFFmkZgZSoHuVkjyjlAcnlnRb+T3QMB0GA1UdDgQWBBQr9ut0lXvxf/E8gIG1C+UpG/BNETBKBgNVHREEQzBBghVkZXZlbG9wZXIubW96aWxsYS5vcmeCEnByb2QubWRuLm1vei53b3Jrc4IUbWRuLm1vemlsbGFkZW1vcy5vcmcwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjA7BgNVHR8ENDAyMDCgLqAshipodHRwOi8vY3JsLnNjYTFiLmFtYXpvbnRydXN0LmNvbS9zY2ExYi5jcmwwEwYDVR0gBAwwCjAIBgZngQwBAgEwdQYIKwYBBQUHAQEEaTBnMC0GCCsGAQUFBzABhiFodHRwOi8vb2NzcC5zY2ExYi5hbWF6b250cnVzdC5jb20wNgYIKwYBBQUHMAKGKmh0dHA6Ly9jcnQuc2NhMWIuYW1hem9udHJ1c3QuY29tL3NjYTFiLmNydDAMBgNVHRMBAf8EAjAAMA0GCSqGSIb3DQEBCwUAA4IBAQCrxE3OLR1+WnK4gIt3ND3PU3laGuHDLcVdJS+DaeDs+tI3iU7gqoLdyEg/kMXDKpByW1hmlDQJYOY3i9Z6TlRgLfLpsge95IkgfsluU/qs0vrm6WTvn2FpEsEI9qxBUkhgm19L44nJXMj42FUJzpNYGhLUIi01fv55BZMg9LD85kMvP5oYQfa+kNhvRQfXNYjRc2u7sZYiGcjsj3OdutFFNHN4crfBIfvr23a26oYe6zabHWJC1Qd16r+tL4KdhS+Z+n72chqOjGsM7/ZcXf7vCpwAs16dWJ0RAFz19Y4hrjrvi6foHs2vfO2t5yzcsZ4a8Fi5vT/u8qTXkWiHtdZtwC8AAwAAAAABAQAA request-method GET request-Cookie m8bCHLrIjkaVPdy2caVXyI59DvE= response-head HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Date: Wed, 11 Oct 2017 06:10:24 GMT
+Etag: "19dab784353bc48570f7830a5fd628d960050db7"
+Last-Modified: Mon, 09 Oct 2017 23:06:32 GMT
+Server: meinheld/0.6.1
+Strict-Transport-Security: max-age=63072000
+Vary: Cookie
+x-content-type-options: nosniff
+X-Frame-Options: DENY
+X-kuma-revision: 1072686
+X-XSS-Protection: 1; mode=block
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 14 predictor::https://cdn.mdn.mozilla.net/static/build/styles/mdn-skinny.b2d9061c8deb.css 1,1,1507702211,0 predictor::https://cdn.mdn.mozilla.net/static/build/styles/wiki-skinny.8dcc315e0a59.css 1,1,1507702211,0 predictor::https://cdn.mdn.mozilla.net/static/build/js/font-check.f6a4c7250869.js 1,1,1507702211,0 predictor::https://www.google-analytics.com/analytics.js 1,1,1507702211,0 predictor::https://cdn.mdn.mozilla.net/static/img/web-docs-sprite.22a6a085cf14.svg 1,1,1507702211,0 predictor::https://cdn.mdn.mozilla.net/static/styles/libs/font-awesome/fonts/fontawesome-webfont.fdf491ce5ff5.woff?v=4.1.0 1,1,1507702211,0 predictor::https://www.google-analytics.com/r/collect?v=1&_v=j64&aip=1&a=904446407&t=pageview&_s=1&dl=https%3A%2F%2Fdeveloper.mozilla.org%2Fbm%2Fdocs%2FWeb%2FJavaScript&dr=https%3A%2F%2Fwww.google.co.in&ul=en-us&de=UTF-8&dt=JavaScript%20%7C%20MDN&sd=24-bit&sr=1440x900&vp=1367x805&je=0&_u=QACAAAABI~&jid=384253584&gjid=233913067&cid=39795889.1507634334&tid=UA-36116321-5&_gid=1245366533.1507634334&_r=1&cd12=1072686&cd17=Web%2FJavaScript&z=804463880 1,1,1507702211,0 predictor::https://cdn.mdn.mozilla.net/static/jsi18n/bm/javascript.b07d4f493108.js 1,1,1507702211,0 predictor::https://cdn.mdn.mozilla.net/static/build/js/main.0a73d7502ddf.js 1,1,1507702211,0 predictor::https://cdn.mdn.mozilla.net/static/build/js/wiki-skinny.2187d581918b.js 1,1,1507702211,0 predictor::https://cdn.mdn.mozilla.net/static/build/js/newsletter.7cd3274169f2.js 1,1,1507702211,0 predictor::https://cdn.mdn.mozilla.net/static/fonts/OpenSans-Regular-webfont.3f642fa3ea74.woff2 1,1,1507702211,0 predictor::https://cdn.mdn.mozilla.net/static/fonts/OpenSans-Semibold-webfont.b25e8a5a61a4.woff2 1,1,1507702211,0 predictor::https://cdn.mdn.mozilla.net/static/fonts/OpenSans-Italic-webfont.47c24d65c5a6.woff2 1,1,1507702211,0  ��

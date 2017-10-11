@@ -1,0 +1,52 @@
+
+(unity-control-center:5528): unity-control-center-WARNING **: Could not load /usr/share/themes/Adwaita/index.theme: No such file or directory
+
+(unity-control-center:5528): GnomeDesktop-WARNING **: Unable to create an input stream for file:///home/arya/Downloads/Wallpapers: Can't open directory
+
+(unity-control-center:5528): Gtk-CRITICAL **: gtk_builder_get_object: assertion 'GTK_IS_BUILDER (builder)' failed
+
+(unity-control-center:5528): Gtk-CRITICAL **: gtk_icon_view_get_selected_items: assertion 'GTK_IS_ICON_VIEW (icon_view)' failed
+
+(unity-control-center:5604): unity-control-center-WARNING **: Could not load /usr/share/themes/Adwaita/index.theme: No such file or directory
+
+(unity-control-center:5604): Gtk-CRITICAL **: gtk_builder_get_object: assertion 'GTK_IS_BUILDER (builder)' failed
+
+(unity-control-center:5604): Gtk-CRITICAL **: gtk_icon_view_get_selected_items: assertion 'GTK_IS_ICON_VIEW (icon_view)' failed
+
+(unity-control-center:12707): unity-control-center-WARNING **: Could not load /usr/share/themes/Adwaita/index.theme: No such file or directory
+
+(unity-control-center:12707): GnomeDesktop-WARNING **: Unable to create an input stream for file:///home/arya/Downloads/Wallpapers: Can't open directory
+
+(unity-control-center:12707): Gtk-CRITICAL **: gtk_builder_get_object: assertion 'GTK_IS_BUILDER (builder)' failed
+
+(unity-control-center:12707): Gtk-CRITICAL **: gtk_icon_view_get_selected_items: assertion 'GTK_IS_ICON_VIEW (icon_view)' failed
+
+(unity-control-center:13504): unity-control-center-WARNING **: Could not load /usr/share/themes/Adwaita/index.theme: No such file or directory
+
+(unity-control-center:13504): GnomeDesktop-WARNING **: Unable to create an input stream for file:///home/arya/Downloads/Wallpapers: Can't open directory
+
+(unity-control-center:13504): GnomeDesktop-WARNING **: Unable to create an input stream for file:///home/arya/Downloads/Wallpapers: Can't open directory
+
+(unity-control-center:13504): GnomeDesktop-WARNING **: Unable to create an input stream for file:///home/arya/Downloads/Wallpapers: Can't open directory
+
+(unity-control-center:13504): GnomeDesktop-WARNING **: Unable to create an input stream for file:///home/arya/Downloads/Wallpapers: Can't open directory
+
+(unity-control-center:13504): GnomeDesktop-WARNING **: Unable to create an input stream for file:///home/arya/Downloads/Wallpapers: Can't open directory
+
+(unity-control-center:13504): Gtk-CRITICAL **: _gtk_tree_path_new_from_rbtree: assertion 'node != NULL' failed
+
+(unity-control-center:13504): Gtk-CRITICAL **: gtk_builder_get_object: assertion 'GTK_IS_BUILDER (builder)' failed
+
+(unity-control-center:13504): Gtk-CRITICAL **: gtk_icon_view_get_selected_items: assertion 'GTK_IS_ICON_VIEW (icon_view)' failed
+
+(unity-control-center:13582): unity-control-center-WARNING **: Could not load /usr/share/themes/Adwaita/index.theme: No such file or directory
+
+(unity-control-center:13582): GnomeDesktop-WARNING **: Unable to create an input stream for file:///home/arya/Downloads/Wallpapers: Can't open directory
+
+(unity-control-center:13582): Gtk-CRITICAL **: _gtk_tree_path_new_from_rbtree: assertion 'node != NULL' failed
+
+(unity-control-center:13582): Gtk-CRITICAL **: gtk_builder_get_object: assertion 'GTK_IS_BUILDER (builder)' failed
+
+(unity-control-center:13582): Gtk-CRITICAL **: gtk_icon_view_get_selected_items: assertion 'GTK_IS_ICON_VIEW (icon_view)' failed
+
+(unity-control-center:13609): unity-control-center-WARNING **: Could not load /usr/share/themes/Adwaita/index.theme: No such file or directory

@@ -1,0 +1,11 @@
+4
+
+https://angular.io/
+https://angular.io/worker-basic.min.js
+{8ef6f5ca-54c7-4aa1-884e-03c42dae6580}
+#
+
+https://www.pinterest.com/
+https://www.pinterest.com/sw.js
+{d5176d42-c1e5-4786-aa71-fa82a63ce2aa}
+#

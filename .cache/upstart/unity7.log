@@ -1,0 +1,161 @@
+
+(process:4650): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
+
+(process:5311): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
+
+(process:5791): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
+WARN  2017-10-11 09:04:48 unity.iconloader IconLoader.cpp:756 Unable to load icon file:/// at size -1x22: Can't open directory
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+
+(process:7227): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
+[Child 7227] WARNING: pipe error: Broken pipe: file /build/firefox-aTzZgw/firefox-47.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 787
+javaldx: Could not find a Java Runtime Environment!
+Warning: failed to read path from javaldx
+javaldx: Could not find a Java Runtime Environment!
+Warning: failed to read path from javaldx
+
+(soffice:8638): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:8654): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:8654): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:8654): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:8654): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+** (soffice:8654): WARNING **: Invalidate all children called
+
+WARN  2017-10-11 11:16:54 unity.a11y.expanderview unity-expander-view-accessible.cpp:185 has_focus = 1
+WARN  2017-10-11 11:16:54 unity.a11y.expanderview unity-expander-view-accessible.cpp:185 has_focus = 0
+
+(process:9745): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
+
+(process:10025): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
+WARN  2017-10-11 11:34:34 unityreak_table (break_type) <unknown>:0 Invalid UTF-8 string passed to pango_layout_set_text()
+WARN  2017-10-11 11:34:34 unityreak_table (break_type) <unknown>:0 Invalid UTF-8 string passed to pango_layout_set_text()
+WARN  2017-10-11 11:35:34 unityreak_table (break_type) <unknown>:0 Invalid UTF-8 string passed to pango_layout_set_text()
+WARN  2017-10-11 11:35:34 unityreak_table (break_type) <unknown>:0 Invalid UTF-8 string passed to pango_layout_set_text()
+WARN  2017-10-11 11:35:47 unityreak_table (break_type) <unknown>:0 Invalid UTF-8 string passed to pango_layout_set_text()
+WARN  2017-10-11 11:35:47 unityreak_table (break_type) <unknown>:0 Invalid UTF-8 string passed to pango_layout_set_text()
+WARN  2017-10-11 11:35:53 unityreak_table (break_type) <unknown>:0 Invalid UTF-8 string passed to pango_layout_set_text()
+WARN  2017-10-11 11:35:53 unityreak_table (break_type) <unknown>:0 Invalid UTF-8 string passed to pango_layout_set_text()
+WARN  2017-10-11 11:36:09 unityreak_table (break_type) <unknown>:0 Invalid UTF-8 string passed to pango_layout_set_text()
+WARN  2017-10-11 11:36:09 unityreak_table (break_type) <unknown>:0 Invalid UTF-8 string passed to pango_layout_set_text()
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xA20027,name=PNecko::Msg_RemoveSchedulingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xA20027,name=PNecko::Msg_RemoveSchedulingContext) Channel closing: too late to send/recv, messages will be lost
+
+WARN  2017-10-11 11:36:55 unityreak_table (break_type) <unknown>:0 Invalid UTF-8 string passed to pango_layout_set_text()
+WARN  2017-10-11 11:36:55 unityreak_table (break_type) <unknown>:0 Invalid UTF-8 string passed to pango_layout_set_text()
+WARN  2017-10-11 11:37:00 unityreak_table (break_type) <unknown>:0 Invalid UTF-8 string passed to pango_layout_set_text()
+WARN  2017-10-11 11:37:00 unityreak_table (break_type) <unknown>:0 Invalid UTF-8 string passed to pango_layout_set_text()
+
+(process:10144): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
+
+(process:11880): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
+
+(process:12674): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
+hashcompleter: cancelling request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: cancelling request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: cancelling request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: cancelling request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: cancelling request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: cancelling request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: cancelling request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: cancelling request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: cancelling request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: cancelling request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: cancelling request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: notifying failure
+hashcompleter: notifying failure
+hashcompleter: notifying failure
+hashcompleter: notifying failure
+hashcompleter: notifying failure
+hashcompleter: notifying failure
+hashcompleter: notifying failure
+hashcompleter: notifying failure
+
+(process:12847): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+
+(process:13176): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
+hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=47.0&pver=2.2
+hashcompleter: notifying failure
+
+(process:13409): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
